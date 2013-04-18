@@ -43,16 +43,52 @@ Early on in the process a rough timeline will be agreed regarding when to aim to
 
 ### Things You Can Do Now
 
-- Play with existing Zooniverse projects
-- Use Talk
-- Join GitHub (and play!)
+- Play with existing Zooniverse projects http://zooniverse.org
+- Use Talk (e.g. http://talk.snapshotserengeti.org)
+- Join GitHub at http://www.github.com
 
 ___
 
 ## Stages of the Project
 
 ### General timeline
+
+There is no 'Gantt Chart' or specific time-plan for a Zooniverse project - because they are all different. However the outline below shows the approximate order of proceedings and gives you an idea of how the work is done.
+
+| Phase | Timescale                  | Outline                  |
+|-------|-----------------------|--------------------------|
+| Pre-development | Days to weeks  | Shared understanding of science goals. Requirements of classification interface.             |
+| Interface Development | Weeks  |  Creating a useful and useable main interface for the project  |
+| Website Development | Week to months | Creating a website around the main interface, with background information, team biographies, images and pictures |
+| Alpha Site | 2-6 weeks before launch | Site is circulated around team for feedback. Test data reduction may happen at this stage. |
+| Beta Site | 1-3 weeks before launch | Site released to limited members of the public for a 'practice' run and feedback from real users. Test data reduction should happen at this stage if not in previous stage. Test that site works as expected and decide on revisions needed or launch date. |
+| **Launch** |  | **Site is released to the public!** Press plan executed, team online during initial days of activity. |
+| First data reduction | Week after launch | Data delivered to science team from initial use of site. Communicate results to volunteers where possible. |
+| Steady-state | As long as it takes | Site exists in a more-or-less steady state, with data reduction ongoing and communication with volunteers. Newsletters can be sent our periodically, and traffic may come in bursts if there is press interested. |
+| Retiring the project | As required | If science goals have been completed and nothing further can be gained from the site it is 'retired' and it is made clear to users that clicks are no longer useful. |
+| Archiving the project | As required | If a project is done and over it is retired and no longer available on Zooniverse home. A closing blog post or press release should be issued with remarks on the science that has been achieved and the legacy of the project. |
+
 ### Useful terms
+
+We have developed our own vocabulary over the years. Here are some terms that will be used and what they means:
+
+- User/Volunteer
+-- People using the website are our volunteers. They are referred to as 'users' in our database but we think 'volunteer' is far more respectful, since they are giving up their time to participate.
+
+- Subject
+-- Volunteers are shown subjects on the site. Subjects are the unit of data to be classified. In Galaxy Zoo they are images of galaxies, in Planet Hunters they are light curves.
+
+- Annotation
+-- Markings, transcriptions or answers to questions are 'annotations'. In Galaxy Zoo every answer is an annotation; in Planet Hunters every transmit box drawn. Annotations are the smallest thing a volunteer can add to a subject.
+
+- Classification
+-- The complete set of annotations that a volunteers adds to a subject, form a classification.
+
+- Interface
+-- The main classification tool used by the public on the project.
+
+- Backend/Frontend
+-- We may talk a lot about front-end and back-end systems. The front-end is the main user interface and website that people see and use in their browser. The back-end refers to the database and API that serve subjects to the project and which saves data for reduction later on.
 
 ___
 
@@ -60,7 +96,9 @@ ___
 
 ### Key Components
 
-- Front End / UI
+Zooniverse projects have a common structure.
+
+- UI
 - Database
 - Ouroboros
 - Talk(?)
