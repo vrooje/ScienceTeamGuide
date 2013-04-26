@@ -72,23 +72,23 @@ There is no 'Gantt Chart' or specific time-plan for a Zooniverse project - becau
 
 We have developed our own vocabulary over the years. Here are some terms that will be used and what they means:
 
-- User/Volunteer
--- People using the website are our volunteers. They are referred to as 'users' in our database but we think 'volunteer' is far more respectful, since they are giving up their time to participate.
+#### User/Volunteer
+People using the website are our volunteers. They are referred to as 'users' in our database but we think 'volunteer' is far more respectful, since they are giving up their time to participate.
 
-- Subject
--- Volunteers are shown subjects on the site. Subjects are the unit of data to be classified. In Galaxy Zoo they are images of galaxies, in Planet Hunters they are light curves.
+#### Subject
+Volunteers are shown subjects on the site. Subjects are the unit of data to be classified. In Galaxy Zoo they are images of galaxies, in Planet Hunters they are light curves.
 
-- Annotation
--- Markings, transcriptions or answers to questions are 'annotations'. In Galaxy Zoo every answer is an annotation; in Planet Hunters every transmit box drawn. Annotations are the smallest thing a volunteer can add to a subject.
+#### Annotation
+Markings, transcriptions or answers to questions are 'annotations'. In Galaxy Zoo every answer is an annotation; in Planet Hunters every transmit box drawn. Annotations are the smallest thing a volunteer can add to a subject.
 
-- Classification
--- The complete set of annotations that a volunteers adds to a subject, form a classification.
+#### Classification
+The complete set of annotations that a volunteers adds to a subject, form a classification.
 
-- Interface
--- The main classification tool used by the public on the project.
+#### Interface
+The main classification tool used by the public on the project.
 
-- Backend/Frontend
--- We may talk a lot about front-end and back-end systems. The front-end is the main user interface and website that people see and use in their browser. The back-end refers to the database and API that serve subjects to the project and which saves data for reduction later on.
+#### Backend/Frontend
+We may talk a lot about front-end and back-end systems. The front-end is the main user interface and website that people see and use in their browser. The back-end refers to the database and API that serve subjects to the project and which saves data for reduction later on.
 
 ___
 
@@ -128,9 +128,38 @@ ___
 
 ___
 
-## Talk and Other Zooniverse Tools
+## Talk
 
-### What is Talk?
+There are two ways for volunteers to reach Talk: by visiting the front page of the site or by being linked to an 'object' page after completing a transcription such as this one. There will usually be a link to 'discuss' at the end of each task. 
+
+There are some features in Talk that may seem a little unusual at first but can (and have) been used to do some excellent science.
+
+### Every subject in the project usually has it's own discussion page
+
+One important thing to realise about Talk is that every record that is shown in the main project interface has a dedicated page that people can comment on. This means that object-specific discussion can happen right on the object and more general community discussion can happen elsewhere.
+
+### You can tag and collect things
+
+Talk supports tagging and user-generated collections of objects. Tagging is achieved using the Twitter convention of #tagname (with no spaces) when writing a comment. Tags are commonly used by the community and science team to identify similar objects in the data. For example, images from Snapshot Serengeti have been tagged by the community with #human when there is a person in the shot.
+
+Collections are groups of objects that people use to group similar objects. Once you have some collections when you are on the object discussion page there are links to 'collect this' and add to one of your collections. An example collection is this collection of giraffes I made. Note that collections, like objects can be discussed also.
+
+### Three types of discussion
+
+Talk has three different 'types' of discussion. The first is general community questions/answers. These are on the boards and are globally split into Science, Help and Chat.
+
+The second is short comments on an object or collection. People typically use these to quickly tag objects.
+
+The third is more in-depth discussion which is for longer posts and again on this page you can see someone asking in the Chat board whether there is one or two porcupines in the image (the thread is call '2 or 1'). When people start these 'faceted' discussions they also show up in the boards under the same Chat heading. You can see the same discussion here.
+
+### Talk is dynamic
+
+When someone comments on an object and tags it then if this tag is used by a number of people it will become a 'popular' tag and will show up on the front page. When a critical mass of people start discussing an object or participating in a discussion on a board then the object or thread shows up in the trending sections of the front page. Basically Talk is designed to show you what's happening right now.
+
+___
+
+## Other Zooniverse Tools
+
 ### Dashboard
 ### Letters
 ___
