@@ -50,6 +50,7 @@ Early on in the process a rough timeline will be agreed regarding when to aim to
 - Play with existing Zooniverse projects http://zooniverse.org
 - Use Talk (e.g. http://talk.snapshotserengeti.org)
 - Join GitHub at http://www.github.com
+- Start thinking about publications you aim to write with this data and the publication policy for this project.
 
 ___
 
@@ -277,13 +278,49 @@ We usually support Twitter and Facebook pages for our sites. We're also working 
 
 The Talk platform begins with the science team answer queries and commenting on the public's discussions. It can be a lot of fun! During the first days the science team's interactions on Talk will help build a core of users who are known and learn common answers. Many of them will, in turn, begin answering the queries of others and lightening the load on the science team. When you spot these people - keep any eye on them: they may become your moderators.
 
-Moderators are volunteers who are promoted on Talk and have powers to delete posts, ban users and highlight content to others more easily. They are marked with moderators in Talk and become community leaders on the project's Talk site.
+Moderators are volunteers who are promoted on Talk and have powers to delete posts, ban users and highlight content to others more easily. They are marked as moderators in Talk and often become community leaders on the project's Talk site. They can become very useful contacts for you and in some cases moderators have even joined the main team mailing list :)
 
 If you see users you think should become moderators, let us know.
 ___
 
 ## Analysis of Results
 
-### Database Scheme and Access
+### Database Schema and Access
+
+Very early on the process it is possible for us to give you example results data. Once the classification interface has been implemented it is possible to outline how the classifications will be structured. This means that you can begin working on data reduction before the project even begins.
+
 ### Example Data
+
+We suggest using a set of sample classifications to get a handle on crunching your data before the Beta even goes live. This means that when you get the results from the Beta test you can see if the project is working and tweak your reduction.
+
 ### Results from Other Projects
+
+There are many people working on past and current Zooniverse projects that are able to help you get started crunching data. Depending on the setup of the site, there may be even be code that can be usefully shared.
+
+For some older projects there are published results, with papers outlining user-weighting schemes and clustering techniques. You can find a complete list of Zooniverse publications at http://www.zooniverse.org/publications
+
+### Results
+
+It is a good idea to get a quick publication and authorship policy written up for your project. There will be Zooniverse team members that deserve authorship credit for the first N papers and science team members will need to know how this is going to work.
+
+Publication is something we;re very keen on at the Zooniverse! It is how we show the scientific community what Zooniverse projects can do, and it shows our volunteers that what they are contributing to something real and worthwhile.
+
+To that end it is always worth blogging about publications, and anything you can share about parts of those results beforehand online are always appreciated by the volunteers. We often use results a a chance to email a site's users and remind them about the project.
+
+_____
+
+## Project Analytics
+
+### Analytics
+
+For all our new projects there exists a status page, supported by Ouroboros, at api.zooniverse.org/projects/XXXXX/status where we can tell you what XXXXX is for your site.
+
+Every project uses Google Analytics to track website use and traffic. This lets us monitor who uses the site and when and how long people spend on the main site, Talk and the blog.
+
+We will provide summaries of the status of the project once in a while, to keep the list up to date. If you ever want to know more about how things are going - don't hesitate to ask.
+___
+
+## Changing the Site After Launch
+
+- This might not be a good idea(?)
+- What if no one visit the site?
