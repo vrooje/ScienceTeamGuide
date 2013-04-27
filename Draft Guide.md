@@ -164,19 +164,44 @@ ___
 
 ## Other Zooniverse Tools
 
-### Dashboard
-### Letters
+### Dashboard (http://tools.zooniverse.org)
+
+The dashboard - or _Zoo Tools_ - is a place where people can filter and plot data from Zooniverse projects, and other selected public datasets. For example, galaxies from Galaxy Zoo can be plotted using a variety of charts and filtered according their location or redshift metadata.
+
+Not all data from all projects is currently supported in the dashboard. It is still under development but if you've got a cool use-case, speak with Arfon.
+
+### Letters  (http://letters.zooniverse.org)
+
+Letters is a place for citizen scientists to 'publish' short articles. These may be summaries of research they have undertaken individually or in groups, or outlines of useful tools or techniques.
+
 ___
 
 ## Data Preparation
 
 ### Discussing subject creation and delivery
+
+Once a classification interface is under developed, the team may require examples of subjects from your data. The requirements for this will be specific to each project. Once the size and shape (or duration, in case of video/audio) of subjects has been established then we need to start shopping up your dataset accordingly.
+
+It may be the case that you are able to do this, and this is often preferred as it helps assure you of the completeness and quality of the final dataset. It may also be the case that the development team need to modify or compress data.
+
+Whatever the requirements, the science and development teams will come to an agreement on what is required and how it will be delivered. It may be that the science team upload files directly or that they deliver hard drives to one of the Zooniverse offices.
+
 ### Amazon S3
+
+All of our subjects end up on Amazon S3. This is Amazon's ultra-reliable online storage platform and allows files to stored online and served globally and without hitting any of our servers. It is fast and highly redundant - meaning that subjects load as quickly as possible and are always available online.
+
+All subjects have a unique, public, read-only Amazon URL on S3 which allows them to be used in the classification interface. All our databases store this URL with the subject meta data.
+
 ### MongoDB, MySQL and CSV
 
-- Why we aren't using MySQL
-- Data I/O methods and how often it can be done
-- We like simple data formats
+Our older projects (those launched before September 2012) are built as Ruby-on-Rails web-apps, running on their own servers and relying on their own MySQL database to store all subject, classifications, users etc.
+
+Our recent projects are HTML5 apps (i.e. they run in the browser and not on servers) and access our custom API application Ouroboros. Ouroboros stores all data in a large MongoDB database server, which spans all projects. MongoDB is not a relation database, but a sophisticated document store for online systems just like ours.
+
+We can import and export subjects, users and results from Ouroboros in CSV, SQL and native MongoDB binary. However we cannot allow everyone access to the system directly - for stability and security reasons. We are able to automated regular data dumps for some regular queries.
+
+It is usually simplest for us to deliver data in the form of CSV files.
+
 ___
 
 ## Analysis of Results
