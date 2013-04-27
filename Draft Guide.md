@@ -72,12 +72,14 @@ There is no 'Gantt Chart' or specific time-plan for a Zooniverse project - becau
 | Retiring the project | As required | If science goals have been completed and nothing further can be gained from the site it is 'retired' and it is made clear to users that clicks are no longer useful. |
 | Archiving the project | As required | If a project is done and over it is retired and no longer available on Zooniverse home. A closing blog post or press release should be issued with remarks on the science that has been achieved and the legacy of the project. |
 
-### Useful terms
+____
+
+## Anatomy of a Zooniverse Project - Some Useful Terms
 
 We have developed our own vocabulary over the years. Here are some terms that will be used and what they means:
 
 #### User/Volunteer
-People using the website are our volunteers. They are referred to as 'users' in our database but we think 'volunteer' is far more respectful, since they are giving up their time to participate.
+People using the website are our volunteers. They are referred to as 'users' in our database but we think 'volunteer' is more respectful, since they are giving up their time to participate.
 
 #### Subject
 Volunteers are shown subjects on the site. Subjects are the unit of data to be classified. In Galaxy Zoo they are images of galaxies, in Planet Hunters they are light curves.
@@ -92,43 +94,55 @@ The complete set of annotations that a volunteers adds to a subject, form a clas
 The main classification tool used by the public on the project.
 
 #### Backend/Frontend
-We may talk a lot about front-end and back-end systems. The front-end is the main user interface and website that people see and use in their browser. The back-end refers to the database and API that serve subjects to the project and which saves data for reduction later on.
+We may talk a lot about front-end and back-end systems. The front-end is the main user interface (UI) and website that people see and use in their browser. The back-end refers to the database and API that serve subjects to the project and which saves data for reduction later on.
 
-___
+#### Main Site, Blog, Talk
 
-## Anatomy of a Zooniverse Project
+Each project has a main site, where the classification interface sits and we give some background information. This is the **www.projectname.org** URL that will be shared around when the project is complete and is the public face of the project for virtually all people.
 
-### Key Components
+Nearly all projects have a discussion site at **talk.projectname.org**. All the project's subjects are shown here and users are usually prompted to talk about any interesting subjects they classify. About 40% of users will visit Talk at least once.
 
-Zooniverse projects have a common structure.
+Finally, there will also be a blog for each site at **blog.projectname.org** where science teams are encouraged to blog background information, news and results. A smaller subset will visit the blog, and you can expect more dedicated and interested users to visit here.
 
-- UI
-- Database
-- Ouroboros
-- Talk(?)
-- Subjects, Classifications and Annotations
+Both the blogs and Talk are covered in more depth later in this document.
 
-### Website 'Content'
+#### Database
 
-- We need text from you
-- Images, videos and biographies
+There is a large, central Zooniverse database that stores each project's subjects, classifications and annotations as well as all user details and Talk discussions.
+
+#### Ouroboros
+
+Our main API system is called Ouroboros and is the backbone of the Zooniverse. It communicates with the database, saving results and logging-in users as needed. It also delivers subjects to users and stores the rules for the delivery and grouping of subjects.
+
+#### Website 'Content'
+
+Sooner or later we will come to you for 'content' for the site. In development terms this means the words and images on the site. We'll need text from you and can guide you on the style and length of this content. You can see examples on all current Zooniverse projects.
+
+We'll be looking for a bit of background on the science and why it is important, as well as short biographies for the team.
 
 ___
 
 ## Interface Design
 
-### Example data
+Once the project is under development we'll send round concepts and designs for the main classification interface. The team will require examples of subjects from your data to do this and the requirements the format of this data will be specific to each project.
 
-- Importance of a good example dataset
+### Example data 
+
+When delivering example data to the team, consider that this will be used to determine the look and feel of the project and the nature of the main classification interface. So try to send representative data. If only 1 in 20 images are 'cool' please try to send a representative set and not just your 20 best images (thought we may ask for those later). Similarly if you have data from several sources, it may be worth including examples from each. This will make sure we create the right kind of user-interface and website design.
 
 ### Agile Development
 
-- Rapid turnaround
-- Amazon EC2 URLs
+We operate in a mode where we try to build stuff, show it to you, and implement feedback quite rapidly. We appreciate that this is _not_ how science, or scientific publication, operates.
+
+This rapid turnaround means that we are always accepting comments and ideas in the early stages. It also means that things will not be complete until near the end. To that end have a system for ticketing issues for the project developers (see below).
+
+During development will send you emails with links to long Amazon URLs. These often temporary URLs are usually only for sharing within the science and development teams and may cease to work when the next version comes along.
 
 ### GitHub
 
-- Issues and ticketing problems
+We use a collaborative coding, versioning system called Git and a website called GitHub (http://www.github.com). Each project has its own GitHub code repository (or just 'repo') and we use the same site to log development issues for everyone involved.
+
+GitHub issues are a very powerful and effective way for everyone to log problems or suggestions whilst the site is under development. GitHub accounts are free and we encourage you to signup and let the team know your username. You can receive alerts when issues are discussed or completed and see if other people have already ticketed your idea or problem. GitHub links nicely with email so you don't need to keep logging into the site to see how things are going.
 
 ___
 
@@ -138,7 +152,7 @@ There are two ways for volunteers to reach Talk: by visiting the front page of t
 
 There are some features in Talk that may seem a little unusual at first but can (and have) been used to do some excellent science.
 
-### Every subject in the project usually has it's own discussion page
+### Every subject in the project usually has its own discussion page
 
 One important thing to realise about Talk is that every record that is shown in the main project interface has a dedicated page that people can comment on. This means that object-specific discussion can happen right on the object and more general community discussion can happen elsewhere.
 
@@ -180,7 +194,7 @@ ___
 
 ### Discussing subject creation and delivery
 
-Once a classification interface is under developed, the team may require examples of subjects from your data. The requirements for this will be specific to each project. Once the size and shape (or duration, in case of video/audio) of subjects has been established then we need to start shopping up your dataset accordingly.
+Once the size and shape (or duration, in case of video/audio) of subjects has been established then we need to start shopping up your dataset accordingly.
 
 It may be the case that you are able to do this, and this is often preferred as it helps assure you of the completeness and quality of the final dataset. It may also be the case that the development team need to modify or compress data.
 
