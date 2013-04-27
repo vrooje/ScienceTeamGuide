@@ -31,6 +31,10 @@ As with all things, communication is vitally important in building Zooniverse pr
 
 JISCMail allows the conversation to be inclusive and creates a record of the conversation at jiscmail.ac.uk. This can be useful in months and even years to come. People can be added to and removed from these lists as needed.
 
+### Support Email
+
+In addition to directly contacting team members, or using the project's JISCMail list, you might also have lower-priority requests or queries that can be answered by many members of the team. For these we encourage everyone to use our support@zooniverse.org email address. We use this ourselves with in the Zooniverse. Emails will be directed to the right person and dealt with within a few days.
+
 ### Amazon Web Services
 
 At the Zooniverse we rely on Amazon Web Services for our core infrastructure. All our servers are virtual machines _in the cloud_ - this includes our webapps (i.e. the project itself) as well as our databases and other sites. We also stored the images and other data for projects on Amazon S3, a highly redundant and scalable online storage platform. This means that test sites, sample data, and other things, will often be found at amazonaws.com URLs.
