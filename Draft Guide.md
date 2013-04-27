@@ -273,9 +273,13 @@ If you are interested in tweeting, or posting from your projects account (and we
 
 We usually support Twitter and Facebook pages for our sites. We're also working to support Google Plus too.
 
-
 ### Talk and Moderators
 
+The Talk platform begins with the science team answer queries and commenting on the public's discussions. It can be a lot of fun! During the first days the science team's interactions on Talk will help build a core of users who are known and learn common answers. Many of them will, in turn, begin answering the queries of others and lightening the load on the science team. When you spot these people - keep any eye on them: they may become your moderators.
+
+Moderators are volunteers who are promoted on Talk and have powers to delete posts, ban users and highlight content to others more easily. They are marked with moderators in Talk and become community leaders on the project's Talk site.
+
+If you see users you think should become moderators, let us know.
 ___
 
 ## Analysis of Results
