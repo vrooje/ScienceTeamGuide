@@ -215,25 +215,39 @@ Our recent projects are HTML5 apps (i.e. they run in the browser and not on serv
 We can import and export subjects, users and results from Ouroboros in CSV, SQL and native MongoDB binary. However we cannot allow everyone access to the system directly - for stability and security reasons. We are able to automated regular data dumps for some regular queries.
 
 It is usually simplest for us to deliver data in the form of CSV files.
-
 ___
 
-## Analysis of Results
+## Project Launch and Beta-Testing
 
-### Database Scheme and Access
-### Example Data
-### Results from Other Projects
-___
+As development nears completion we will begin discussing a timeline for launching the site to the public. The first step is to select a good time to perform a beta test of the project.
 
-## Beta Testing
+The Beta is a dry-run of the website with a small group of volunteers (usually about 100-200 people). It is a chance to check that the web-app is working, that people understand the task and that the results make sense.
 
 ### Collecting Beta Users
-### Feedback Form
-### Provisional Launch Date
 
-- Time commitments during launch days
+When we are ready to launch a Beta we usually send a Zooniverse newsletter and ask for volunteers to email us if they wish to take part in the test of a new project. Those people that volunteers for this are usually our more dedicated and sensible participants.
+
+These people will then be sent a secret URL, told the aims of the project and asked to fill out a feedback form when they have had a go. The data in a beta is limited so that we can get a representative dataset but do not properly launch the site.
+
+### Feedback and Beta Results
+
+The feedback form we ask them to fill in can be customised and the results will be shared. We usually ask about how they found the site, whether they understood the task and like the idea.
+
+We can use this form, and the beta classifications data to determine if the site is ready for launch and if so, how long the development and science teams need to make it happen.
 
 ### Press strategy
+
+After the beta test, once a launch date is agreed, we can start talking about press releases and how best to coordinate the website's launch.
+
+We have found that the best model is to have one institute issue a press release and for any other institutions to coordinate with the lead. This varies project to project.
+
+We will also send a newsletter to appropriate Zooniverse users and get existing projects to blog/tweet where appropriate.
+
+### Launch timeline
+
+With a launch date agreed, we usually establish a go/no-go date and time. This is a time at which we pass a point of no return and must launch the website. There are no priority issues pending at this time, and everyone should be happy with the site going live. At this time press releases are issued (often with embargoes) and everyone is prepared for launch.
+
+Launch day is often very busy - particularly if press do pick up on the story - so it is important to have members of the science team online and ready to answer development team queries, and more importantly answer volunteers' queries on Talk. We find that solid, lasting Talk communities are honed and established during the days after launch. Engaged science teams are essential in allowing this to happen.
 
 ___
 
@@ -264,9 +278,8 @@ We usually support Twitter and Facebook pages for our sites. We're also working 
 
 ___
 
-## Project Launch
+## Analysis of Results
 
-### Launch timeline
-
-- Go/no-go date and time
-- Sharing the site before launch
+### Database Scheme and Access
+### Example Data
+### Results from Other Projects
