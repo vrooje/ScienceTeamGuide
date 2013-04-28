@@ -332,7 +332,7 @@ ___
 
 ## After Launch and Changes to the Project
 
-WE have always considered Zooniverse websites to be experiment sin their own right. The way users interact with the tools they are given define the nature of the classifications - as does the way those tools are explained and placed in context. For this reason it is generally not a good idea to change a project once it is live. Correcting text, updating team biographies and other small changes are usually fine, but any changes to the main interface could affect the results of the project and need careful consideration.
+We have always considered Zooniverse websites to be experiments in their own right. The way users interact with the tools they are given defines the nature of the classifications - as does the way those tools are explained and placed in context. For this reason it is generally not a good idea to change a project once it is live. Correcting text, updating team biographies and other small changes are usually fine, but any changes to the main interface could affect the results of the project and need careful consideration.
 
 Similarly, once a project is up and running and a community is building up around it, the Zooniverse team will shift gear into a 'steady state' and will be focussing on new upcoming projects for development. We will continue to provide support but after launch the science team take the lead.
 
@@ -340,5 +340,32 @@ ___
 
 ## Closing Down the Project
 
-- When is a project over? 
-- Archiving and Retiring Projects 
+Hopefully the Beta test and early days of the project will give everyone a good idea of how long a project needs to run to complete the target science goals. For busy projects, those goals may be achieved earlier than expected, and for other projects it may be known from the start that there is a virtually limitless supply of data available for classification. Many projects run for years - and others only a few weeks!
+
+We can decide a project is over if some of the following are true:
+
+- The project has enough classifications to complete its science goals.
+- The project science team is no longer able to provide support or do research with the data.
+- Traffic to the project has diminished such that it is no longer viable to continue running the project (and avenues to correct this have been explored).
+
+In these cases archiving or retiring the project become the best options. Action like this is only taken in consultation between the Zooniverse team and the science team.
+
+### Archiving Projects
+
+If a project is deemed to be _over_ then in the first instance it will be 'archived'. Archived projects are modified to include a prominent message to volunteers that the site is no longer collecting useful data. The project remains on the Zooniverse homepage and we continue post social media updates, and support the blog and Talk.
+
+### Retiring Projects
+
+When a project is retired a prominent message is displayed to visitors that this site is longer active.. Users's favourites and recents remain accessible but the database is essentially 'disconnected'.
+
+A date is agreed when the blog and Talk will be frozen and a final blog post is written explaining the project's retirement. Social media and newsletter activities come to an end.
+
+Data from the project (including archives of the blog, tweets etc) are made available to the Zooniverse and science teams.
+
+___
+
+## Summary
+
+
+
+___
