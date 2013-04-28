@@ -151,6 +151,8 @@ ___
 
 There are two ways for volunteers to reach Talk: by visiting the front page of the site or by being linked to an 'object' page after completing a transcription such as this one. There will usually be a link to 'discuss' at the end of each task. 
 
+![Planet Four Talk](http://zooniverse-resources.s3.amazonaws.com/science_team_guide/p4talk.png)
+
 There are some features in Talk that may seem a little unusual at first but can (and have) been used to do some excellent science.
 
 ### Every subject in the project usually has its own discussion page
@@ -181,11 +183,15 @@ ___
 
 ### Dashboard (http://tools.zooniverse.org)
 
+![Screenshot of the Dashboard](http://zooniverse-resources.s3.amazonaws.com/science_team_guide/tools.png)
+
 The dashboard - or _Zoo Tools_ - is a place where people can filter and plot data from Zooniverse projects, and other selected public datasets. For example, galaxies from Galaxy Zoo can be plotted using a variety of charts and filtered according their location or redshift metadata.
 
 Not all data from all projects is currently supported in the dashboard. It is still under development but if you've got a cool use-case, speak with Arfon.
 
 ### Letters  (http://letters.zooniverse.org)
+
+![Screenshot of Letters](http://zooniverse-resources.s3.amazonaws.com/science_team_guide/letters.png)
 
 Letters is a place for citizen scientists to 'publish' short articles. These may be summaries of research they have undertaken individually or in groups, or outlines of useful tools or techniques.
 
@@ -315,12 +321,24 @@ _____
 
 For all our new projects there exists a status page, supported by Ouroboros, at api.zooniverse.org/projects/XXXXX/status where we can tell you what XXXXX is for your site.
 
+![Ouroboros Analytics Example](http://zooniverse-resources.s3.amazonaws.com/science_team_guide/apidashboard1.png)
+
+![Ouroboros Analytics Example](http://zooniverse-resources.s3.amazonaws.com/science_team_guide/apidashboard2.png)
+
 Every project uses Google Analytics to track website use and traffic. This lets us monitor who uses the site and when and how long people spend on the main site, Talk and the blog.
 
 We will provide summaries of the status of the project once in a while, to keep the list up to date. If you ever want to know more about how things are going - don't hesitate to ask.
 ___
 
-## Changing the Site After Launch
+## After Launch and Changes to the Project
 
-- This might not be a good idea(?)
-- What if no one visit the site?
+WE have always considered Zooniverse websites to be experiment sin their own right. The way users interact with the tools they are given define the nature of the classifications - as does the way those tools are explained and placed in context. For this reason it is generally not a good idea to change a project once it is live. Correcting text, updating team biographies and other small changes are usually fine, but any changes to the main interface could affect the results of the project and need careful consideration.
+
+Similarly, once a project is up and running and a community is building up around it, the Zooniverse team will shift gear into a 'steady state' and will be focussing on new upcoming projects for development. We will continue to provide support but after launch the science team take the lead.
+
+___
+
+## Closing Down the Project
+
+- When is a project over? 
+- Archiving and Retiring Projects 
