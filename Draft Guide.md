@@ -366,6 +366,8 @@ ___
 
 ## Summary
 
+Zooniverse projects are a lot of fun and really engage the public with discovery and with your science. We're looking forward to building your project with you.
 
+If you have any questions about this guide contact rob@zooniverse.org.
 
 ___
