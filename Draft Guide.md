@@ -236,7 +236,7 @@ All subjects have a unique, public, read-only Amazon URL on S3 which allows them
 
 Our older projects (those launched before September 2012) are built as Ruby-on-Rails web-apps, running on their own servers and relying on their own MySQL database to store all subject, classifications, users etc.
 
-Our recent projects are HTML5 apps (i.e. they run in the browser and not on servers) and access our custom API application Ouroboros. Ouroboros stores all data in a large MongoDB database server, which spans all projects. MongoDB is not a relation database, but a sophisticated document store for online systems just like ours.
+Our recent projects are HTML5 apps (i.e. they run in the browser and not on servers) and access our custom API application Ouroboros. Ouroboros stores all data in a large MongoDB database server, which spans all projects. MongoDB is not a relational database, but a sophisticated document store for online systems just like ours.
 
 We can import and export subjects, users and results from Ouroboros in CSV, SQL and native MongoDB binary. However we cannot allow everyone access to the system directly - for stability and security reasons. We are able to automated regular data dumps for some regular queries.
 
