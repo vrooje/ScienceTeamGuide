@@ -2,7 +2,27 @@
 ### Robert Simpson (_April 2013_)
 _______
 
-## Introduction
+## Contents
+
+1. [Introduction](#introduction)
+- [Setting Up the Process](#setting_up)
+- [Stages of a Project](#stages_project)
+- [Anatomy of a Project](#anatomy_project)
+- [Interface Design](#interface_design)
+- [Talk](#talk)
+- [Other Zooniverse Tools](#other_tools)
+- [Data Preparation](#data_prearation)
+- [Analysis of Data](#analysis)
+- [Project Analytics](#analytics)
+- [Project Launch and Beta Testing](#launch_and_beta)
+- [Communicating with Users](#communication)
+- [After Launch](#after_launch_changes)
+- [Closing Down the Project](#closing_down)
+- [Summary](#summary)
+
+___
+
+## <a id="introduction"></a> Introduction
 
 This document aims to overview the process of creating a citizen science project with the Zooniverse team. It is not meant as a contract or rigid plan - but rather a chance to explain some terms and technologies that we use.
 
@@ -10,7 +30,7 @@ We don't work like many groups you might come across in academic or research ins
 
 ___
 
-## Setting Up the Process
+## <a id="setting_up"></a> Setting Up the Process
 
 So your proposal has been accepted: congratulations! That means we're going to build an awesome citizen science project together.
 
@@ -18,12 +38,11 @@ So your proposal has been accepted: congratulations! That means we're going to b
 
 The Zooniverse consists of two main groups: one in the University of Oxford (UK) and one at the Adler Planetarium (Chicago, US). The Oxford group is lead by Chris Lintott (cjl@astro.ox.ac.uk) and the Chicago team by Arfon Smith (arfon@zooniverse.org). You'll be working with some combination of people in both these teams over the coming months.
 
-In addition to our amazing developers, whom you will meet during the process of building your project, there are some other names that will come up over the course of this document:
+In addition to our amazing developers, whom you will meet during the process of building your project, there are some other names that will may be useful:
 
 - David Miller - Visual design miller@zooniverse.org
 - Robert Simpson - Communication, web analytics, social media rob@zooniverse.org
-- David Weiner - Project management david@citizensciencealliance.org
-- Laura Whyte and Kelly Border - Education specialists laura@zooniverse.org and kelly@zooniverse.org
+- Laura Whyte and Kelly Borden - Education specialists laura@zooniverse.org and kelly@zooniverse.org
 
 ### JISCMail lists
 
@@ -54,7 +73,7 @@ Early on in the process a rough timeline will be agreed regarding when to aim to
 
 ___
 
-## Stages of the Project
+## <a id="stages_of_project"></a> Stages of the Project
 
 ### General timeline
 
@@ -75,7 +94,7 @@ There is no 'Gantt Chart' or specific time-plan for a Zooniverse project - becau
 
 ____
 
-## Anatomy of a Zooniverse Project - Some Useful Terms
+## <a id="anatomy_project"></a> Anatomy of a Zooniverse Project
 
 We have developed our own vocabulary over the years. Here are some terms that will be used and what they means:
 
@@ -123,7 +142,7 @@ We'll be looking for a bit of background on the science and why it is important,
 
 ___
 
-## Interface Design
+## <a id="interface_design"></a> Interface Design
 
 Once the project is under development we'll send round concepts and designs for the main classification interface. The team will require examples of subjects from your data to do this and the requirements the format of this data will be specific to each project.
 
@@ -147,7 +166,7 @@ GitHub issues are a very powerful and effective way for everyone to log problems
 
 ___
 
-## Talk
+## <a id="talk"></a> Talk
 
 There are two ways for volunteers to reach Talk: by visiting the front page of the site or by being linked to an 'object' page after completing a transcription such as this one. There will usually be a link to 'discuss' at the end of each task. 
 
@@ -179,7 +198,7 @@ When someone comments on an object and tags it then if this tag is used by a num
 
 ___
 
-## Other Zooniverse Tools
+## <a id="other_tools"></a> Other Zooniverse Tools
 
 ### Dashboard (http://tools.zooniverse.org)
 
@@ -197,7 +216,7 @@ Letters is a place for citizen scientists to 'publish' short articles. These may
 
 ___
 
-## Data Preparation
+## <a id="data_preparation"></a> Data Preparation
 
 ### Discussing subject creation and delivery
 
@@ -224,7 +243,7 @@ We can import and export subjects, users and results from Ouroboros in CSV, SQL 
 It is usually simplest for us to deliver data in the form of CSV files.
 ___
 
-## Project Launch and Beta-Testing
+## <a id="launch_and_beta"></a> Project Launch and Beta-Testing
 
 As development nears completion we will begin discussing a timeline for launching the site to the public. The first step is to select a good time to perform a beta test of the project.
 
@@ -258,7 +277,7 @@ Launch day is often very busy - particularly if press do pick up on the story - 
 
 ___
 
-## Communicating with Users
+## <a id="communication"></a> Communicating with Users
 
 ### Blogging
 
@@ -289,7 +308,7 @@ Moderators are volunteers who are promoted on Talk and have powers to delete pos
 If you see users you think should become moderators, let us know.
 ___
 
-## Analysis of Results
+## <a id="analysis"></a> Analysis of Results
 
 ### Database Schema and Access
 
@@ -315,7 +334,7 @@ To that end it is always worth blogging about publications, and anything you can
 
 _____
 
-## Project Analytics
+## <a id="analytics"></a> Project Analytics
 
 ### Analytics
 
@@ -330,7 +349,9 @@ Every project uses Google Analytics to track website use and traffic. This lets 
 We will provide summaries of the status of the project once in a while, to keep the list up to date. If you ever want to know more about how things are going - don't hesitate to ask.
 ___
 
-## After Launch and Changes to the Project
+## <a id="after_launch_changes"></a> After Launch
+
+### Changes to the Project
 
 We have always considered Zooniverse websites to be experiments in their own right. The way users interact with the tools they are given defines the nature of the classifications - as does the way those tools are explained and placed in context. For this reason it is generally not a good idea to change a project once it is live. Correcting text, updating team biographies and other small changes are usually fine, but any changes to the main interface could affect the results of the project and need careful consideration.
 
@@ -338,7 +359,7 @@ Similarly, once a project is up and running and a community is building up aroun
 
 ___
 
-## Closing Down the Project
+## <a id="closing_down"></a> Closing Down Projects
 
 Hopefully the Beta test and early days of the project will give everyone a good idea of how long a project needs to run to complete the target science goals. For busy projects, those goals may be achieved earlier than expected, and for other projects it may be known from the start that there is a virtually limitless supply of data available for classification. Many projects run for years - and others only a few weeks!
 
@@ -364,7 +385,7 @@ Data from the project (including archives of the blog, tweets etc) are made avai
 
 ___
 
-## Summary
+## <a id="summary"></a> Summary
 
 Zooniverse projects are a lot of fun and really engage the public with discovery and with your science. We're looking forward to building your project with you.
 
