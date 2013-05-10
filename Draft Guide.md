@@ -22,21 +22,13 @@ _______
 
 ___
 
-## <a id="introduction"></a> Introduction
-
-This document aims to overview the process of creating a citizen science project with the Zooniverse team. It is not meant as a contract or rigid plan - but rather a chance to explain some terms and technologies that we use.
-
-We don't work like many groups you might come across in academic or research institutions. In the past people have commented on this (usually in a very positive way!) and it seems like a good idea to get in writing some of the main milestones of creating a Zooniverse project, so that you know what to expect and roughly how the process works.
-
-___
-
 ## <a id="setting_up"></a> Setting Up the Process
 
-So your proposal has been accepted: congratulations! That means we're going to build an awesome citizen science project together.
+So we're building your project: congratulations! That means we're going to build an awesome citizen science project together.
 
 ### Key contacts at the Zooniverse
 
-The Zooniverse consists of two main groups: one in the University of Oxford (UK) and one at the Adler Planetarium (Chicago, US). The Oxford group is lead by Chris Lintott (cjl@astro.ox.ac.uk) and the Chicago team by Arfon Smith (arfon@zooniverse.org). You'll be working with some combination of people in both these teams over the coming months.
+The Zooniverse consists of two main groups: one in the University of Oxford (UK) and one at the Adler Planetarium (Chicago, US). The Oxford group is led by Chris Lintott (cjl@astro.ox.ac.uk) and the Chicago team by Arfon Smith (arfon@zooniverse.org). You'll be working with some combination of people in both these teams over the coming months.
 
 In addition to our amazing developers, whom you will meet during the process of building your project, there are some other names that will may be useful:
 
@@ -46,17 +38,17 @@ In addition to our amazing developers, whom you will meet during the process of 
 
 ### JISCMail lists
 
-As with all things, communication is vitally important in building Zooniverse projects. We are distributed around the world (and we travel too) and this is also true for most science teams. To keep in touch, we use the JISCMail LISTSERV service for our projects. Everyone that needs to, will be added to the list for your project and this will be set up early on by our team.
+As with all things, communication is vitally important in building Zooniverse projects. We are distributed around the world (and we travel too) and this is also true for most science teams. To keep in touch, we use the JISCMail LISTSERV service for our projects. Everyone that needs to will be added to the list for your project and this will be set up early on by our team.
 
-JISCMail allows the conversation to be inclusive and creates a record of the conversation at jiscmail.ac.uk. This can be useful in months and even years to come. People can be added to and removed from these lists as needed.
+JISCMail allows the conversation to be inclusive and creates a record of the conversation at jiscmail.ac.uk. This can be useful in months and even years to come. When writing a paper in two or more years' time, you'll want to be able to find that detailed discussion about data selection without having to search everyone's email. People can be added to and removed from these lists as needed.
 
 ### Support Email
 
-In addition to directly contacting team members, or using the project's JISCMail list, you might also have lower-priority requests or queries that can be answered by many members of the team. For these we encourage everyone to use our support@zooniverse.org email address. We use this ourselves with in the Zooniverse. Emails will be directed to the right person and dealt with within a few days.
+In addition to directly contacting team members, or using the project's JISCMail list, you might also have lower-priority requests or queries that can be answered by many members of the team. For these we encourage everyone to use our support@zooniverse.org email address. We use this ourselves with in the Zooniverse. Emails will be directed to the right person and dealt with within a few days. **This address is for use after the site is live and public. Discussion about development should be kept to GitHub and email**.
 
 ### Amazon Web Services
 
-At the Zooniverse we rely on Amazon Web Services for our core infrastructure. All our servers are virtual machines _in the cloud_ - this includes our webapps (i.e. the project itself) as well as our databases and other sites. We also stored the images and other data for projects on Amazon S3, a highly redundant and scalable online storage platform. This means that test sites, sample data, and other things, will often be found at amazonaws.com URLs.
+At the Zooniverse we rely on Amazon Web Services for our core infrastructure. All our servers are virtual machines _in the cloud_ - this includes our webapps (i.e. the project itself) as well as our databases and other sites. We also store the images and other data for projects on Amazon S3, a highly redundant and scalable online storage platform. This means that test sites, sample data, and other things, will often be found at amazonaws.com URLs.
 
 We don't need you to create any Amazon accounts, or really think about this much at all, but it's worth noting that we use this service and that is a popular, and secure way to hosts large-scale websites.
 
@@ -85,12 +77,12 @@ There is no 'Gantt Chart' or specific time-plan for a Zooniverse project - becau
 | Interface Development | Weeks  |  Creating a useful and useable main interface for the project  |
 | Website Development | Week to months | Creating a website around the main interface, with background information, team biographies, images and pictures |
 | Alpha Site | 2-6 weeks before launch | Site is circulated around team for feedback. Test data reduction may happen at this stage. |
-| Beta Site | 1-3 weeks before launch | Site released to limited members of the public for a 'practice' run and feedback from real users. Test data reduction should happen at this stage if not in previous stage. Test that site works as expected and decide on revisions needed or launch date. |
+| Beta Site | 1-3 weeks before launch | Site released to limited members of the public for a 'practice' run and feedback from real users. A test data reduction should ideally happen at this stage if not in the previous stage. Test that site works as expected and decide on revisions needed or launch date. |
 | **Launch** |  | **Site is released to the public!** Press plan executed, team online during initial days of activity. |
 | First data reduction | Week after launch | Data delivered to science team from initial use of site. Communicate results to volunteers where possible. |
 | Steady-state | As long as it takes | Site exists in a more-or-less steady state, with data reduction ongoing and communication with volunteers. Newsletters can be sent our periodically, and traffic may come in bursts if there is press interested. |
 | Retiring the project | As required | If science goals have been completed and nothing further can be gained from the site it is 'retired' and it is made clear to users that clicks are no longer useful. |
-| Archiving the project | As required | If a project is done and over it is retired and no longer available on Zooniverse home. A closing blog post or press release should be issued with remarks on the science that has been achieved and the legacy of the project. |
+| Archiving the project | As required | If a project is done and over it is retired and no longer available on Zooniverse home. A closing blog post or press release should be issued with remarks on the science that has been achieved and the legacy of the project. The site remains up for education and reference use. |
 
 ____
 
@@ -105,13 +97,16 @@ People using the website are our volunteers. They are referred to as 'users' in 
 Volunteers are shown subjects on the site. Subjects are the unit of data to be classified. In Galaxy Zoo they are images of galaxies, in Planet Hunters they are light curves.
 
 #### Annotation
-Markings, transcriptions or answers to questions are 'annotations'. In Galaxy Zoo every answer is an annotation; in Planet Hunters every transmit box drawn. Annotations are the smallest thing a volunteer can add to a subject.
+Markings, transcriptions or answers to questions are 'annotations'. In Galaxy Zoo every answer is an annotation; in Planet Hunters every transit box drawn. Annotations are the smallest thing a volunteer can add to a subject.
 
 #### Classification
-The complete set of annotations that a volunteers adds to a subject, form a classification.
+The complete set of annotations that a volunteers adds to a subject form a classification.
 
 #### Interface
 The main classification tool used by the public on the project.
+
+#### Application Programming Interface (API)
+A system by which one can interact with software - in our case the main Zooniverse software, Ouroboros. An API is the way to directly communicate with the app that handles the database, without just clicking on the websites. APIs exists for many services online.
 
 #### Backend/Frontend
 We may talk a lot about front-end and back-end systems. The front-end is the main user interface (UI) and website that people see and use in their browser. The back-end refers to the database and API that serve subjects to the project and which saves data for reduction later on.
@@ -152,9 +147,9 @@ When delivering example data to the team, consider that this will be used to det
 
 ### Agile Development
 
-We operate in a mode where we try to build stuff, show it to you, and implement feedback quite rapidly. We appreciate that this is _not_ how science, or scientific publication, operates.
+We operate in a mode where we try to build stuff, show it to you, and implement feedback quite rapidly. We appreciate that this is not often how science, or scientific publication, operates.
 
-This rapid turnaround means that we are always accepting comments and ideas in the early stages. It also means that things will not be complete until near the end. To that end have a system for ticketing issues for the project developers (see below).
+This rapid turnaround means that we are always accepting comments and ideas in the early stages. It also means that things will not be complete until near the end. To facilitate this, we have a system for ticketing issues for the project developers (see below).
 
 During development will send you emails with links to long Amazon URLs. These often temporary URLs are usually only for sharing within the science and development teams and may cease to work when the next version comes along.
 
@@ -182,7 +177,7 @@ One important thing to realise about Talk is that every record that is shown in 
 
 Talk supports tagging and user-generated collections of objects. Tagging is achieved using the Twitter convention of #tagname (with no spaces) when writing a comment. Tags are commonly used by the community and science team to identify similar objects in the data. For example, images from Snapshot Serengeti have been tagged by the community with #human when there is a person in the shot.
 
-Collections are groups of objects that people use to group similar objects. Once you have some collections when you are on the object discussion page there are links to 'collect this' and add to one of your collections. An example collection is this collection of giraffes I made. Note that collections, like objects can be discussed also.
+Collections are groups of objects that people use to group similar objects. Once you have some collections, then when you are on the object discussion page there are links to 'collect this' and add to one of your collections. Note that collections, like objects can be discussed also.
 
 ### Three types of discussion
 
@@ -190,7 +185,7 @@ Talk has three different 'types' of discussion. The first is general community q
 
 The second is short comments on an object or collection. People typically use these to quickly tag objects.
 
-The third is more in-depth discussion which is for longer posts and again on this page you can see someone asking in the Chat board whether there is one or two porcupines in the image (the thread is call '2 or 1'). When people start these 'faceted' discussions they also show up in the boards under the same Chat heading. You can see the same discussion here.
+The third is more in-depth discussion which is for longer posts. When people start these 'faceted' discussions they also show up in the boards under the same Chat heading.
 
 ### Talk is dynamic
 
@@ -220,7 +215,7 @@ ___
 
 ### Discussing subject creation and delivery
 
-Once the size and shape (or duration, in case of video/audio) of subjects has been established then we need to start shopping up your dataset accordingly.
+Once the size and shape (or duration, in case of video/audio) of subjects has been established then we need to start chopping up your dataset accordingly.
 
 It may be the case that you are able to do this, and this is often preferred as it helps assure you of the completeness and quality of the final dataset. It may also be the case that the development team need to modify or compress data.
 
@@ -240,7 +235,7 @@ Our recent projects are HTML5 apps (i.e. they run in the browser and not on serv
 
 We can import and export subjects, users and results from Ouroboros in CSV, SQL and native MongoDB binary. However we cannot allow everyone access to the system directly - for stability and security reasons. We are able to automated regular data dumps for some regular queries.
 
-It is usually simplest for us to deliver data in the form of CSV files.
+If you can't handle MongoDB, it is usually simplest for us to deliver data in the form of CSV files.
 ___
 
 ## <a id="launch_and_beta"></a> Project Launch and Beta-Testing
@@ -251,9 +246,9 @@ The Beta is a dry-run of the website with a small group of volunteers (usually a
 
 ### Collecting Beta Users
 
-When we are ready to launch a Beta we usually send a Zooniverse newsletter and ask for volunteers to email us if they wish to take part in the test of a new project. Those people that volunteers for this are usually our more dedicated and sensible participants.
+When we are ready to launch a Beta we usually send a Zooniverse newsletter and ask for volunteers to email us if they wish to take part in the test of a new project. Those people that volunteers for this are usually our more dedicated and sensible participants. We can also use people known to the science team if that is preferred.
 
-These people will then be sent a secret URL, told the aims of the project and asked to fill out a feedback form when they have had a go. The data in a beta is limited so that we can get a representative dataset but do not properly launch the site.
+These people will then be sent a secret URL, told the aims of the project and asked to fill out a feedback form when they have had a go. The data in a beta is usually a limited sample of the full set. This is done to keep the beta small and manageable and also so that we get a representative set of results.
 
 ### Feedback and Beta Results
 
@@ -263,7 +258,7 @@ We can use this form, and the beta classifications data to determine if the site
 
 ### Press strategy
 
-After the beta test, once a launch date is agreed, we can start talking about press releases and how best to coordinate the website's launch.
+After the beta test, once a launch date is agreed, we can start talking about press releases and how best to coordinate the website's launch. In most cases the press release should come from the science team - after all, you're better equipped to deal with your own science than we are.
 
 We have found that the best model is to have one institute issue a press release and for any other institutions to coordinate with the lead. This varies project to project.
 
@@ -273,7 +268,9 @@ We will also send a newsletter to appropriate Zooniverse users and get existing 
 
 With a launch date agreed, we usually establish a go/no-go date and time. This is a time at which we pass a point of no return and must launch the website. There are no priority issues pending at this time, and everyone should be happy with the site going live. At this time press releases are issued (often with embargoes) and everyone is prepared for launch.
 
-Launch day is often very busy - particularly if press do pick up on the story - so it is important to have members of the science team online and ready to answer development team queries, and more importantly answer volunteers' queries on Talk. We find that solid, lasting Talk communities are honed and established during the days after launch. Engaged science teams are essential in allowing this to happen.
+Launch day is often very busy - particularly if press do pick up on the story - so it is important to have members of the science team online and ready to answer development team queries, and more importantly answer volunteers' queries on Talk. We find that solid, lasting Talk communities are honed and established during the days after launch.
+
+Engaged science teams are essential in allowing this to happen. If the volunteers see that you're around for launch, then they are likely to be much more committed to the project.
 
 ___
 
@@ -301,7 +298,7 @@ We usually support Twitter and Facebook pages for our sites. We're also working 
 
 ### Talk and Moderators
 
-The Talk platform begins with the science team answer queries and commenting on the public's discussions. It can be a lot of fun! During the first days the science team's interactions on Talk will help build a core of users who are known and learn common answers. Many of them will, in turn, begin answering the queries of others and lightening the load on the science team. When you spot these people - keep any eye on them: they may become your moderators.
+The Talk platform begins with the science team answering queries and commenting on the public's discussions. It can be a lot of fun! During the first days the science team's interactions on Talk will help build a core of users who are known and learn common answers. Many of them will, in turn, begin answering the queries of others and lightening the load on the science team. When you spot these people - keep any eye on them: they may become your moderators.
 
 Moderators are volunteers who are promoted on Talk and have powers to delete posts, ban users and highlight content to others more easily. They are marked as moderators in Talk and often become community leaders on the project's Talk site. They can become very useful contacts for you and in some cases moderators have even joined the main team mailing list :)
 
@@ -322,15 +319,23 @@ We suggest using a set of sample classifications to get a handle on crunching yo
 
 There are many people working on past and current Zooniverse projects that are able to help you get started crunching data. Depending on the setup of the site, there may be even be code that can be usefully shared.
 
-For some older projects there are published results, with papers outlining user-weighting schemes and clustering techniques. You can find a complete list of Zooniverse publications at http://www.zooniverse.org/publications
+For some older projects there are published results, with papers outlining user-weighting schemes and clustering techniques. You can find a complete list of Zooniverse publications at http://www.zooniverse.org/publications.
+
+Some notable Zooniverse data reduction papers that may be useful are:
+- [Lintott+11, Galaxy Zoo Paper](http://adsabs.harvard.edu/abs/2011MNRAS.410..166L)
+- [Schwamb+12, Planet Hunters Paper](http://adsabs.harvard.edu/abs/2012ApJ...754..129S)
+- [Simpson+12, Milky Way Project Paper](http://adsabs.harvard.edu/abs/2012MNRAS.424.2442S)
+
 
 ### Results
 
-It is a good idea to get a quick publication and authorship policy written up for your project. There will be Zooniverse team members that deserve authorship credit for the first N papers and science team members will need to know how this is going to work.
+It is a good idea to get a quick publication and authorship policy written up for your project. This is the responsibility of the project PI, although there will be Zooniverse team members that deserve authorship credit for the first N papers and science team members will need to agree about how this will work.
 
 Publication is something we;re very keen on at the Zooniverse! It is how we show the scientific community what Zooniverse projects can do, and it shows our volunteers that what they are contributing to something real and worthwhile.
 
 To that end it is always worth blogging about publications, and anything you can share about parts of those results beforehand online are always appreciated by the volunteers. We often use results a a chance to email a site's users and remind them about the project.
+
+We try to maintain a policy of producing publicly accessible data on the projects own domain, in addition to publishing in formal channels. This means that anyone can access the data and gives us a chance to frame it for the public. You can see examples at http://data.galaxyzoo.org and http://data.milkywayproject.org.
 
 _____
 
@@ -338,7 +343,7 @@ _____
 
 ### Analytics
 
-For all our new projects there exists a status page, supported by Ouroboros, at api.zooniverse.org/projects/XXXXX/status where we can tell you what XXXXX is for your site.
+For all our new projects there exists a status page, supported by Ouroboros, at api.zooniverse.org/projects/XXXXX/status where we can tell you what XXXXX is for your site (e.g. https://api.zooniverse.org/projects/galaxy_zoo/status).
 
 ![Ouroboros Analytics Example](http://zooniverse-resources.s3.amazonaws.com/science_team_guide/apidashboard1.png)
 
@@ -353,7 +358,7 @@ ___
 
 ### Changes to the Project
 
-We have always considered Zooniverse websites to be experiments in their own right. The way users interact with the tools they are given defines the nature of the classifications - as does the way those tools are explained and placed in context. For this reason it is generally not a good idea to change a project once it is live. Correcting text, updating team biographies and other small changes are usually fine, but any changes to the main interface could affect the results of the project and need careful consideration.
+We have always considered Zooniverse websites to be parts of the experiment. The way users interact with the tools they are given defines the nature of the classifications - as does the way those tools are explained and placed in context. For this reason it is generally not a good idea to change a project once it is live. Correcting text, updating team biographies and other small changes are usually fine, but any changes to the main interface could affect the results of the project and need careful consideration.
 
 Similarly, once a project is up and running and a community is building up around it, the Zooniverse team will shift gear into a 'steady state' and will be focussing on new upcoming projects for development. We will continue to provide support but after launch the science team take the lead.
 
