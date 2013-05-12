@@ -32,13 +32,14 @@ The Zooniverse consists of two main groups: one in the University of Oxford (UK)
 
 In addition to our amazing developers, whom you will meet during the process of building your project, there are some other names that will may be useful:
 
-- David Miller - Visual design miller@zooniverse.org
+
+- Heath Van Singel - Visual design heath@zooniverse.org
 - Robert Simpson - Communication, web analytics, social media rob@zooniverse.org
 - Laura Whyte and Kelly Borden - Education specialists laura@zooniverse.org and kelly@zooniverse.org
 
 ### JISCMail lists
 
-As with all things, communication is vitally important in building Zooniverse projects. We are distributed around the world (and we travel too) and this is also true for most science teams. To keep in touch, we use the JISCMail LISTSERV service for our projects. Everyone that needs to will be added to the list for your project and this will be set up early on by our team.
+As with all things, communication is vitally important in building Zooniverse projects. We are distributed around the world (and we travel too) and this is also true for most science teams. To keep in touch, we use the JISCMail LISTSERV service for our projects. This is a kind of email exploder, that you interact with via email or the web. Only those on the list can send or receive messages. Everyone that needs to will be added to the list for your project and this will be set up early on by our team.
 
 JISCMail allows the conversation to be inclusive and creates a record of the conversation at jiscmail.ac.uk. This can be useful in months and even years to come. When writing a paper in two or more years' time, you'll want to be able to find that detailed discussion about data selection without having to search everyone's email. People can be added to and removed from these lists as needed.
 
@@ -59,8 +60,8 @@ Early on in the process a rough timeline will be agreed regarding when to aim to
 ### Things You Can Do Now
 
 - Play with existing Zooniverse projects http://zooniverse.org
-- Use Talk (e.g. http://talk.snapshotserengeti.org)
-- Join GitHub at http://www.github.com
+- Use Talk (e.g. http://talk.spacewarps.org), http://talk.galaxyzoo.org
+- Create an account with GitHub at http://www.github.com and take a look around.
 - Start thinking about publications you aim to write with this data and the publication policy for this project.
 
 ___
@@ -163,6 +164,8 @@ ___
 
 ## <a id="talk"></a> Talk
 
+Talk is our custom-built discussion tool. Users are encouraged to comment on, and collect, items they see on the project. The idea is to facilitate the collection of interesting subjects and their discussion. Talk is designed such that if you find a subject interesting or odd then you can quickly see if anyone else has commented on it before and what they said.
+
 There are two ways for volunteers to reach Talk: by visiting the front page of the site or by being linked to an 'object' page after completing a transcription such as this one. There will usually be a link to 'discuss' at the end of each task. 
 
 ![Planet Four Talk](http://zooniverse-resources.s3.amazonaws.com/science_team_guide/p4talk.png)
@@ -175,7 +178,7 @@ One important thing to realise about Talk is that every record that is shown in 
 
 ### You can tag and collect things
 
-Talk supports tagging and user-generated collections of objects. Tagging is achieved using the Twitter convention of #tagname (with no spaces) when writing a comment. Tags are commonly used by the community and science team to identify similar objects in the data. For example, images from Snapshot Serengeti have been tagged by the community with #human when there is a person in the shot.
+Talk supports tagging and user-generated collections of objects. Tagging is achieved using the Twitter convention of #tagname (with no spaces) when writing a comment. Tags are commonly used by the community and science team to identify similar objects in the data. For example, images from Snapshot Serengeti have been tagged by the community with #fire when there are flames visible or a wildfire, as this not something asked for in the main interface.
 
 Collections are groups of objects that people use to group similar objects. Once you have some collections, then when you are on the object discussion page there are links to 'collect this' and add to one of your collections. Note that collections, like objects can be discussed also.
 
@@ -185,11 +188,11 @@ Talk has three different 'types' of discussion. The first is general community q
 
 The second is short comments on an object or collection. People typically use these to quickly tag objects.
 
-The third is more in-depth discussion which is for longer posts. When people start these 'faceted' discussions they also show up in the boards under the same Chat heading.
+The third is more in-depth discussion for specific objects or collection which is for longer posts. When people start these 'faceted' discussions they also show up in the boards under the same Chat heading.
 
 ### Talk is dynamic
 
-When someone comments on an object and tags it then if this tag is used by a number of people it will become a 'popular' tag and will show up on the front page. When a critical mass of people start discussing an object or participating in a discussion on a board then the object or thread shows up in the trending sections of the front page. Basically Talk is designed to show you what's happening right now.
+If many people are using the same tag it will become a 'popular' tag and will show up on the front page. When a critical mass of people start discussing an object or participating in a discussion on a board then the object or thread shows up in the trending sections of the front page. Basically Talk is designed to show you what's happening right now.
 
 ___
 
@@ -199,7 +202,7 @@ ___
 
 ![Screenshot of the Dashboard](http://zooniverse-resources.s3.amazonaws.com/science_team_guide/tools.png)
 
-The dashboard - or _Zoo Tools_ - is a place where people can filter and plot data from Zooniverse projects, and other selected public datasets. For example, galaxies from Galaxy Zoo can be plotted using a variety of charts and filtered according their location or redshift metadata.
+The dashboard - or _Zoo Tools_ - is a place where people can filter and plot data from some Zooniverse projects, and other selected public datasets. For example, galaxies from Galaxy Zoo can be plotted using a variety of charts and filtered according their location or redshift metadata.
 
 Not all data from all projects is currently supported in the dashboard. It is still under development but if you've got a cool use-case, speak with Arfon.
 
@@ -258,7 +261,7 @@ We can use this form, and the beta classifications data to determine if the site
 
 ### Press strategy
 
-After the beta test, once a launch date is agreed, we can start talking about press releases and how best to coordinate the website's launch. In most cases the press release should come from the science team - after all, you're better equipped to deal with your own science than we are.
+After testing has been underway and a launch date is being discussed, we can start talking about press releases and how best to coordinate the website's launch. In most cases the press release should come from the science team - after all, you're better equipped to deal with your own science than we are.
 
 We have found that the best model is to have one institute issue a press release and for any other institutions to coordinate with the lead. This varies project to project.
 
@@ -266,7 +269,7 @@ We will also send a newsletter to appropriate Zooniverse users and get existing 
 
 ### Launch timeline
 
-With a launch date agreed, we usually establish a go/no-go date and time. This is a time at which we pass a point of no return and must launch the website. There are no priority issues pending at this time, and everyone should be happy with the site going live. At this time press releases are issued (often with embargoes) and everyone is prepared for launch.
+With a launch date agreed, we usually establish a go/no-go date and time. This is a time at which we pass a point of no return and must launch the website. There are no priority issues pending at this time, and everyone should be happy with the site going live. At this time press releases are issued (often with press embargoes) and everyone is prepared for launch.
 
 Launch day is often very busy - particularly if press do pick up on the story - so it is important to have members of the science team online and ready to answer development team queries, and more importantly answer volunteers' queries on Talk. We find that solid, lasting Talk communities are honed and established during the days after launch.
 
@@ -276,13 +279,19 @@ ___
 
 ## <a id="communication"></a> Communicating with Users
 
+### Newsletters
+
+We have the capability to send emails to all our users, either across the Zooniverse or per-project. With hundreds-of-thousands of emails going out in one go, these are not sent lightly. We try to limit newsletters to once a month per project, although exceptions have been known.
+
+We generate lists of users and keep them internally in order to keep users' personal data private. As such we need to send newsletters and do so in coordination with project teams. We also try to send periodic Zooniverse-wide newsletters.
+
 ### Blogging
 
 Most of our projects have their own blogs at blog.projecturl.org. This is a Wordpress.com blog and anyone that wants to blog should signup for a free account at www.wordpress.com.
 
 Blogging is useful for communicating with interested volunteers and for reporting preliminary results during data reduction. 
 
-Some highlights from our existing blog network include the blogs for Planet Hunters (http://blog.planethunters.org), Snapshot Serengeti (http://blog.snapshotserengeti.org) and Moon Zoo (http://blog.moonzoo.org). It is worth reading some entries on this sites to get an idea of what a good Zooniverse blog looks like.
+Some highlights from our existing blog network include the blogs for Planet Hunters (http://blog.planethunters.org), Snapshot Serengeti (http://blog.snapshotserengeti.org) and Moon Zoo (http://blog.moonzoo.org). It is worth reading some entries on these sites to get an idea of what a good Zooniverse blog looks like.
 
 These three blogs are read by between 1,000 and 10,000 people a week and good chuck of those readers (about 40%) click through to the project or Talk.
 
@@ -298,11 +307,11 @@ We usually support Twitter and Facebook pages for our sites. We're also working 
 
 ### Talk and Moderators
 
-The Talk platform begins with the science team answering queries and commenting on the public's discussions. It can be a lot of fun! During the first days the science team's interactions on Talk will help build a core of users who are known and learn common answers. Many of them will, in turn, begin answering the queries of others and lightening the load on the science team. When you spot these people - keep any eye on them: they may become your moderators.
+The Talk platform begins with the science team answering queries and commenting on the public's discussions. It can be a lot of fun! During the first days the science team's interactions on Talk will help build a core of users who are known and learn common answers. Many of them will, in turn, begin answering the queries of others and lightening the load on the science team. When you spot these people - keep any eye on them: they may become your moderators. If you spot potential moderators who should communicate with them and see if they are interested in participating further.
 
-Moderators are volunteers who are promoted on Talk and have powers to delete posts, ban users and highlight content to others more easily. They are marked as moderators in Talk and often become community leaders on the project's Talk site. They can become very useful contacts for you and in some cases moderators have even joined the main team mailing list :)
+Once promoted, moderators have powers to delete posts, ban users and highlight content to others more easily. They are marked as moderators in Talk and often become community leaders on the project's Talk site. They can become very useful contacts for you and in some cases moderators have even joined the main team mailing list.
 
-If you see users you think should become moderators, let us know.
+If you see users you think should become moderators, let us know. We have a Zooniverse-wide moderators email list and it may be useful to put them in touch. Moderators do not have to be enthusiastic participants, in some projects they are undergrads from relevant research groups, for example.
 ___
 
 ## <a id="analysis"></a> Analysis of Results
@@ -318,6 +327,8 @@ We suggest using a set of sample classifications to get a handle on crunching yo
 ### Results from Other Projects
 
 There are many people working on past and current Zooniverse projects that are able to help you get started crunching data. Depending on the setup of the site, there may be even be code that can be usefully shared.
+
+A *Zooniverse scientists* JISCMail listserv exists  - and an accompanying, private blog. If you want access them please conttact rob@zooniverse.org.
 
 For some older projects there are published results, with papers outlining user-weighting schemes and clustering techniques. You can find a complete list of Zooniverse publications at http://www.zooniverse.org/publications.
 
@@ -351,7 +362,7 @@ For all our new projects there exists a status page, supported by Ouroboros, at 
 
 Every project uses Google Analytics to track website use and traffic. This lets us monitor who uses the site and when and how long people spend on the main site, Talk and the blog.
 
-We will provide summaries of the status of the project once in a while, to keep the list up to date. If you ever want to know more about how things are going - don't hesitate to ask.
+We will provide summaries of the status of the project once in a while, to keep your project up to date. If you ever want to know more about how things are going - don't hesitate to ask.
 ___
 
 ## <a id="after_launch_changes"></a> After Launch
@@ -366,7 +377,7 @@ ___
 
 ## <a id="closing_down"></a> Closing Down Projects
 
-Hopefully the Beta test and early days of the project will give everyone a good idea of how long a project needs to run to complete the target science goals. For busy projects, those goals may be achieved earlier than expected, and for other projects it may be known from the start that there is a virtually limitless supply of data available for classification. Many projects run for years - and others only a few weeks!
+Hopefully the Beta test and early days of the project will give everyone a good idea of how long a project needs to run to complete the target science goals. For busy projects, those goals may be achieved earlier than expected, and for other projects it may be known from the start that there is a virtually limitless supply of data available for classification. Many projects run for years - and others only a few weeks! There are also projects that can be effectively 'paused' whilst new data is expected.
 
 We can decide a project is over if some of the following are true:
 
@@ -378,7 +389,7 @@ In these cases archiving or retiring the project become the best options. Action
 
 ### Archiving Projects
 
-If a project is deemed to be _over_ then in the first instance it will be 'archived'. Archived projects are modified to include a prominent message to volunteers that the site is no longer collecting useful data. The project remains on the Zooniverse homepage and we continue post social media updates, and support the blog and Talk.
+If a project is deemed to be complete then in the first instance it will be 'archived'. Archived projects are modified to include a prominent message to volunteers that the site is no longer collecting useful data. The project remains on the Zooniverse homepage and we continue post social media updates, and support the blog and Talk.
 
 ### Retiring Projects
 
