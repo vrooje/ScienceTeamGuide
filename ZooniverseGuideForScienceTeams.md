@@ -1,6 +1,7 @@
 # Zooniverse Guide for Science Teams
 ### Robert Simpson
 #### (_Created_ April 2013, _Edited_ February 2014)
+[View as HTML here](http://htmlpreview.github.io/?https://github.com/zooniverse/ScienceTeamGuide/blob/master/ZooniverseGuideForScienceTeams.html)
 _______
 
 ## Contents
