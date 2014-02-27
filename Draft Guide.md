@@ -321,17 +321,17 @@ ___
 
 ### Database Schema and Access
 
-Very early on the process it is possible for us to give you example results data. Once the classification interface has been implemented it is possible to outline how the classifications will be structured. This means that you can begin working on data reduction before the project even begins.
+Very early on the process it is possible for us to give you example results data. Once the classification interface has been implemented it is possible to outline how the classifications will be structured. This means that you can begin working on data reduction before the project even begins. For any queries regarding this, you should contact Chris Snyder (cs@zooniverse.org).
 
 ### Example Data
 
-We suggest using a set of sample classifications to get a handle on crunching your data before the Beta even goes live. This means that when you get the results from the Beta test you can see if the project is working and tweak your reduction.
+We suggest using a set of sample classifications to get a handle on crunching your data before the Beta test, or during it. This means that when you get the results from the Beta test you can see if the project is working and tweak your reduction.
 
 ### Results from Other Projects
 
 There are many people working on past and current Zooniverse projects that are able to help you get started crunching data. Depending on the setup of the site, there may be even be code that can be usefully shared.
 
-A *Zooniverse scientists* JISCMail listserv exists  - and an accompanying, private blog. If you want access them please conttact rob@zooniverse.org.
+A *Zooniverse scientists* JISCMail listserv exists  - and an accompanying, private blog. If you want access them please contact rob@zooniverse.org.
 
 For some older projects there are published results, with papers outlining user-weighting schemes and clustering techniques. You can find a complete list of Zooniverse publications at http://www.zooniverse.org/publications.
 
@@ -343,13 +343,13 @@ Some notable Zooniverse data reduction papers that may be useful are:
 
 ### Results
 
-It is a good idea to get a quick publication and authorship policy written up for your project. This is the responsibility of the project PI, although there will be Zooniverse team members that deserve authorship credit for the first N papers and science team members will need to agree about how this will work.
+It is a good idea to get a brief publication and authorship policy written up for your project. This is the responsibility of the project PI, although there will be Zooniverse team members that deserve authorship credit for the first N papers and science team members will need to agree about how this will work.
 
-Publication is something we;re very keen on at the Zooniverse! It is how we show the scientific community what Zooniverse projects can do, and it shows our volunteers that what they are contributing to something real and worthwhile.
+Publication is something we're very keen on at the Zooniverse! It is how we show the scientific community what Zooniverse projects can do, and it shows our volunteers that what they are contributing to something real and worthwhile.
 
 To that end it is always worth blogging about publications, and anything you can share about parts of those results beforehand online are always appreciated by the volunteers. We often use results a a chance to email a site's users and remind them about the project.
 
-We try to maintain a policy of producing publicly accessible data on the projects own domain, in addition to publishing in formal channels. This means that anyone can access the data and gives us a chance to frame it for the public. You can see examples at http://data.galaxyzoo.org and http://data.milkywayproject.org.
+We try to maintain a policy of producing publicly accessible data on the projects own domain, in addition to publishing in formal channels. This means that anyone can access the data and gives us a chance to frame it for the public. You can see examples at http://data.galaxyzoo.org and http://www.milkywayproject.org/data.
 
 _____
 
@@ -392,7 +392,7 @@ In these cases archiving or retiring the project become the best options. Action
 
 ### Archiving Projects
 
-If a project is deemed to be complete then in the first instance it will be 'archived'. Archived projects are modified to include a prominent message to volunteers that the site is no longer collecting useful data. The project remains on the Zooniverse homepage and we continue post social media updates, and support the blog and Talk.
+If a project is deemed to be complete then in the first instance it will be 'archived'. Archived projects are modified to include a prominent message to volunteers that the site is no longer collecting useful data. We continue post social media updates, and support the blog and Talk.
 
 ### Retiring Projects
 
