@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generated-by" content="Markdown PRO, http://markdownpro.com"/>
+<title></title>
+<style type="text/css">
+html,body{margin:0;padding:0;}
+body {padding: 20px}
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;}
+q:before,q:after,blockquote:before,blockquote:after{content:"";}
+html{overflow-y:scroll;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+a:focus{outline:thin dotted;}
+a:hover,a:active{outline:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]){display:none;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+img{border:0;-ms-interpolation-mode:bicubic;}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;}
+button,input{line-height:normal;*overflow:visible;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;}
+input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+textarea{overflow:auto;vertical-align:top;}
+html,body{background-color:#ffffff;}
+body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:18px;color:#404040;}
+.container{width:940px;margin-left:auto;margin-right:auto;zoom:1;}.container:before,.container:after{display:table;content:"";zoom:1;*display:inline;}
+.container:after{clear:both;}
+.container-fluid{position:relative;min-width:940px;padding-left:20px;padding-right:20px;zoom:1;}.container-fluid:before,.container-fluid:after{display:table;content:"";zoom:1;*display:inline;}
+.container-fluid:after{clear:both;}
+.container-fluid>.sidebar{float:left;width:220px;}
+.container-fluid>.content{margin-left:240px;}
+a{color:#0069d6;text-decoration:none;line-height:inherit;font-weight:inherit;}a:hover{color:#00438a;text-decoration:underline;}
+.pull-right{float:right;}
+.pull-left{float:left;}
+.hide{display:none;}
+.show{display:block;}
+.row{zoom:1;margin-left:-20px;}.row:before,.row:after{display:table;content:"";zoom:1;*display:inline;}
+.row:after{clear:both;}
+p{font-size:13px;font-weight:normal;line-height:18px;margin-bottom:9px;}p small{font-size:11px;color:#bfbfbf;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;color:#404040;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{color:#bfbfbf;}
+h1{margin-bottom:18px;font-size:30px;line-height:36px;}h1 small{font-size:18px;}
+h2{font-size:24px;line-height:36px;}h2 small{font-size:14px;}
+h3,h4,h5,h6{line-height:36px;}
+h3{font-size:18px;}h3 small{font-size:14px;}
+h4{font-size:16px;}h4 small{font-size:12px;}
+h5{font-size:14px;}
+h6{font-size:13px;color:#bfbfbf;text-transform:uppercase;}
+ul,ol{margin:0 0 18px 25px;}
+ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
+ul{list-style:disc;}
+ol{list-style:decimal;}
+li{line-height:18px;color:#808080;}
+ul.unstyled{list-style:none;margin-left:0;}
+dl{margin-bottom:18px;}dl dt,dl dd{line-height:18px;}
+dl dt{font-weight:bold;}
+dl dd{margin-left:9px;}
+hr{margin:20px 0 19px;border:0;border-bottom:1px solid #eee;}
+strong{font-style:inherit;font-weight:bold;}
+em{font-style:italic;font-weight:inherit;line-height:inherit;}
+.muted{color:#bfbfbf;}
+blockquote{margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}blockquote p{font-size:14px;font-weight:300;line-height:18px;margin-bottom:0;}
+blockquote small{display:block;font-size:12px;font-weight:300;line-height:18px;color:#bfbfbf;}blockquote small:before{content:'\2014 \00A0';}
+address{display:block;line-height:18px;margin-bottom:18px;}
+code,pre{padding:0 3px 2px;font-family:Monaco, Andale Mono, Courier New, monospace;font-size:12px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+code{padding:1px 3px;}
+pre{background-color:#f5f5f5;display:block;padding:8.5px;margin:0 0 18px;line-height:18px;font-size:12px;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+form{margin-bottom:18px;}
+fieldset{margin-bottom:18px;padding-top:18px;}fieldset legend{display:block;padding-left:150px;font-size:19.5px;line-height:1;color:#404040;*padding:0 0 5px 145px;*line-height:1.5;}
+form .clearfix{margin-bottom:18px;zoom:1;}form .clearfix:before,form .clearfix:after{display:table;content:"";zoom:1;*display:inline;}
+form .clearfix:after{clear:both;}
+label,input,select,textarea{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:normal;}
+label{padding-top:6px;font-size:13px;line-height:18px;float:left;width:130px;text-align:right;color:#404040;}
+form .input{margin-left:150px;}
+input[type=checkbox],input[type=radio]{cursor:pointer;}
+input,textarea,select,.uneditable-input{display:inline-block;width:210px;height:18px;padding:4px;font-size:13px;line-height:18px;color:#808080;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+input[type=checkbox],input[type=radio]{width:auto;height:auto;padding:0;margin:3px 0;*margin-top:0;line-height:normal;border:none;}
+input[type=file]{background-color:#ffffff;padding:initial;border:initial;line-height:initial;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+input[type=button],input[type=reset],input[type=submit]{width:auto;height:auto;}
+select,input[type=file]{height:27px;line-height:27px;*margin-top:4px;}
+select[multiple]{height:inherit;}
+textarea{height:auto;}
+.uneditable-input{background-color:#ffffff;display:block;border-color:#eee;-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);-moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);cursor:not-allowed;}
+:-moz-placeholder{color:#bfbfbf;}
+::-webkit-input-placeholder{color:#bfbfbf;}
+input,textarea{-webkit-transition:border linear 0.2s,box-shadow linear 0.2s;-moz-transition:border linear 0.2s,box-shadow linear 0.2s;-ms-transition:border linear 0.2s,box-shadow linear 0.2s;-o-transition:border linear 0.2s,box-shadow linear 0.2s;transition:border linear 0.2s,box-shadow linear 0.2s;-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);}
+input:focus,textarea:focus{outline:0;border-color:rgba(82, 168, 236, 0.8);-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);}
+input[type=file]:focus,input[type=checkbox]:focus,select:focus{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:1px dotted #666;}
+form div.clearfix.error{background:#fae5e3;padding:10px 0;margin:-10px 0 10px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}form div.clearfix.error>label,form div.clearfix.error span.help-inline,form div.clearfix.error span.help-block{color:#9d261d;}
+form div.clearfix.error input,form div.clearfix.error textarea{border-color:#c87872;-webkit-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);-moz-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);box-shadow:0 0 3px rgba(171, 41, 32, 0.25);}form div.clearfix.error input:focus,form div.clearfix.error textarea:focus{border-color:#b9554d;-webkit-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);-moz-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);box-shadow:0 0 6px rgba(171, 41, 32, 0.5);}
+form div.clearfix.error .input-prepend span.add-on,form div.clearfix.error .input-append span.add-on{background:#f4c8c5;border-color:#c87872;color:#b9554d;}
+table{width:100%;margin-bottom:18px;padding:0;border-collapse:separate;*border-collapse:collapse;font-size:13px;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left;}
+table th{padding-top:9px;font-weight:bold;vertical-align:middle;border-bottom:1px solid #ddd;}
+table td{vertical-align:top;}
+table th+th,table td+td{border-left:1px solid #ddd;}
+table tr+tr td{border-top:1px solid #ddd;}
+table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
+table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
+table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
+table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0;}
+.zebra-striped tbody tr:nth-child(odd) td{background-color:#f9f9f9;}
+.zebra-striped tbody tr:hover td{background-color:#f5f5f5;}
+.zebra-striped .header{cursor:pointer;}.zebra-striped .header:after{content:"";float:right;margin-top:7px;border-width:0 4px 4px;border-style:solid;border-color:#000 transparent;visibility:hidden;}
+.zebra-striped .header:hover:after{visibility:visible;}
+footer{margin-top:17px;padding-top:17px;border-top:1px solid #eee;}
+.page-header{margin-bottom:17px;border-bottom:1px solid #ddd;-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);-moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);}.page-header h1{margin-bottom:8px;}
+.close{float:right;color:#000000;font-size:20px;font-weight:bold;line-height:13.5px;text-shadow:0 1px 0 #ffffff;filter:alpha(opacity=20);-khtml-opacity:0.2;-moz-opacity:0.2;opacity:0.2;}.close:hover{color:#000000;text-decoration:none;filter:alpha(opacity=40);-khtml-opacity:0.4;-moz-opacity:0.4;opacity:0.4;}
+
+pre {
+	padding: 0;
+	margin: 10px 0px 10px;
+	overflow: auto; /*--If the Code exceeds the width, a scrolling is available--*/
+	overflow-Y: hidden;  /*--Hides vertical scroll created by IE--*/
+}
+pre code {
+	margin: 5px;  /*--Left Margin--*/
+	padding: 0px;
+	display: block;
+    line-height: 18px;
+}
+.center { text-align:center}
+.left {text-align:left}
+.right {text-align:right}
+
+</style><style type="text/css">
+body {
+	font-family: "Geneva", Arial, sans-serif;
+	font-size: 13px;
+	margin: 10px;
+}
+
+a, a:visited {
+	color: #09c;
+}
+
+a:hover {
+	color: #336699;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0px 0px 10px;	
+	font-weight: bold;
+}
+
+h2 {
+	border-bottom: 2px dotted #ccc;
+	margin: 5px 0px 15px;	
+}
+
+h6 {
+	color: #09c;
+}
+
+blockquote {
+	font-family: "Georgia", Courier New, courier, sans-serif;
+	background: #efefef;
+	padding: 5px 10px;
+	border: solid 1px #ddd;
+	margin: 15px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	color:  #333;
+	
+}
+
+ul, ol {
+	margin-bottom: 15px;
+}
+
+li {
+	padding: 3px;
+}
+
+
+
+code {
+	background-color: #f1f1f1;
+    color: #336699;
+}
+
+pre {
+	background-color: #f1f1f1;
+}
+
+pre > code {
+	margin: 0px;
+	padding: 5px;
+	border: 0px;
+	background-color: #f1f1f1;
+}
+
+
+</style></head>
+<body>
+<h1>Zooniverse Guide for Science Teams</h1>
+
+<h3>Robert Simpson</h3>
+
+<h4>(<em>Created</em> April 2013, <em>Edited</em> February 2014)</h4>
+
+<hr>
+
+<h2>Contents</h2>
+
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#setting_up">Setting Up the Process</a></li>
+<li><a href="#stages_project">Stages of a Project</a></li>
+<li><a href="#anatomy_project">Anatomy of a Project</a></li>
+<li><a href="#interface_design">Interface Design</a></li>
+<li><a href="#talk">Talk</a></li>
+<li><a href="#other_tools">Other Zooniverse Tools</a></li>
+<li><a href="#data_prearation">Data Preparation</a></li>
+<li><a href="#analysis">Analysis of Data</a></li>
+<li><a href="#analytics">Project Analytics</a></li>
+<li><a href="#launch_and_beta">Project Launch and Beta Testing</a></li>
+<li><a href="#communication">Communicating with Users</a></li>
+<li><a href="#after_launch_changes">After Launch</a></li>
+<li><a href="#closing_down">Closing Down the Project</a></li>
+<li><a href="#summary">Summary</a></li>
+</ol>
+
+<hr>
+
+<h2><a id="setting_up"></a> Setting Up the Process</h2>
+
+<p>So we&#39;re building your project: congratulations! That means we&#39;re going to build an awesome citizen science project together.</p>
+
+<h3>Key contacts at the Zooniverse</h3>
+
+<p>The Zooniverse consists of two main groups: one in the University of Oxford (UK) and one at the Adler Planetarium (Chicago, US). The Oxford group is led by Chris Lintott (<a href="mailto:cjl@astro.ox.ac.uk">cjl@astro.ox.ac.uk</a>) and the Chicago team by Laura Whyte (<a href="mailto:laura@zooniverse.org">laura@zooniverse.org</a>). You&#39;ll be working with some combination of people in both these teams over the coming months.</p>
+
+<p>In addition to our amazing developers, whom you will meet during the process of building your project, there are some other names that will may be useful:</p>
+
+<ul>
+<li>Chris Snyder - Porject Manager <a href="mailto:cs@zooniverse.org">cs@zooniverse.org</a></li>
+<li>Robert Simpson - Communications lead <a href="mailto:rob@zooniverse.org">rob@zooniverse.org</a></li>
+<li>Kelly Borden - Education specialists <a href="mailto:kelly@zooniverse.org">kelly@zooniverse.org</a></li>
+<li>Heath Van Singel - Visual design <a href="mailto:heath@zooniverse.org">heath@zooniverse.org</a></li>
+</ul>
+
+<h3>JISCMail lists</h3>
+
+<p>As with all things, communication is vitally important in building Zooniverse projects. We are distributed around the world (and we travel too) and this is also true for most science teams. To keep in touch, we use the JISCMail LISTSERV service for our projects. This is a kind of email exploder, that you interact with via email or the web. Only those on the list can send or receive messages. Everyone that needs to will be added to the list for your project and this will be set up early on by our team.</p>
+
+<p>JISCMail allows the conversation to be inclusive and creates a record of the conversation at jiscmail.ac.uk. This can be useful in months and even years to come. When writing a paper in two or more years&#39; time, you&#39;ll want to be able to find that detailed discussion about data selection without having to search everyone&#39;s email. People can be added to and removed from these lists as needed.</p>
+
+<h3>Support Email</h3>
+
+<p>In addition to directly contacting team members, or using the project&#39;s JISCMail list, you might also have lower-priority requests or queries that can be answered by many members of the team. For these we encourage everyone to use our <a href="mailto:support@zooniverse.org">support@zooniverse.org</a> email address. We use this ourselves with in the Zooniverse. Emails will be directed to the right person and dealt with within a few days. <strong>This address is for use after the site is live and public. Discussion about development should be kept to GitHub and email</strong>.</p>
+
+<h3>Amazon Web Services</h3>
+
+<p>At the Zooniverse we rely on Amazon Web Services for our core infrastructure. All our servers are virtual machines <em>in the cloud</em> - this includes our webapps (i.e. the project itself) as well as our databases and other sites. We also store the images and other data for projects on Amazon S3, a highly redundant and scalable online storage platform. This means that test sites, sample data, and other things, will often be found at amazonaws.com URLs.</p>
+
+<p>We don&#39;t need you to create any Amazon accounts, or really think about this much at all, but it&#39;s worth noting that we use this service and that is a popular, and secure way to hosts large-scale websites.</p>
+
+<h3>Agreeing a timeline</h3>
+
+<p>Early on in the process a rough timeline will be agreed regarding when to aim to launch the site and when to start work in ernest.</p>
+
+<h3>Things You Can Do Now</h3>
+
+<ul>
+<li>Play with existing Zooniverse projects <a href="http://zooniverse.org">http://zooniverse.org</a></li>
+<li>Use Talk (e.g. <a href="http://talk.spacewarps.org">http://talk.spacewarps.org</a>), <a href="http://talk.galaxyzoo.org">http://talk.galaxyzoo.org</a></li>
+<li>Create an account with GitHub at <a href="http://www.github.com">http://www.github.com</a> and take a look around.</li>
+<li>Start thinking about publications you aim to write with this data and the publication policy for this project.</li>
+</ul>
+
+<hr>
+
+<h2><a id="stages_of_project"></a> Stages of the Project</h2>
+
+<h3>General timeline</h3>
+
+<p>There is no &#39;Gantt Chart&#39; or specific time-plan for a Zooniverse project - because they are all different. However the outline below shows the approximate order of proceedings and gives you an idea of how the work is done.</p>
+
+<table><thead>
+<tr>
+<th>Phase</th>
+<th>Timescale</th>
+<th>Outline</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Pre-development</td>
+<td>Days to weeks</td>
+<td>Shared understanding of science goals. Requirements of classification interface.</td>
+</tr>
+<tr>
+<td>Interface Development</td>
+<td>Weeks</td>
+<td>Creating a useful and useable main interface for the project</td>
+</tr>
+<tr>
+<td>Website Development</td>
+<td>Week to months</td>
+<td>Creating a website around the main interface, with background information, team biographies, images and pictures</td>
+</tr>
+<tr>
+<td>Alpha Site</td>
+<td>2-6 weeks before launch</td>
+<td>Site is circulated around team for feedback. Test data reduction may happen at this stage.</td>
+</tr>
+<tr>
+<td>Beta Site</td>
+<td>1-3 weeks before launch</td>
+<td>Site released to limited members of the public for a &#39;practice&#39; run and feedback from real users. A test data reduction should ideally happen at this stage if not in the previous stage. Test that site works as expected and decide on revisions needed or launch date.</td>
+</tr>
+<tr>
+<td><strong>Launch</strong></td>
+<td></td>
+<td><strong>Site is released to the public!</strong> Press plan executed, team online during initial days of activity.</td>
+</tr>
+<tr>
+<td>First data reduction</td>
+<td>Week after launch</td>
+<td>Data delivered to science team from initial use of site. Communicate results to volunteers where possible.</td>
+</tr>
+<tr>
+<td>Steady-state</td>
+<td>As long as it takes</td>
+<td>Site exists in a more-or-less steady state, with data reduction ongoing and communication with volunteers. Newsletters can be sent our periodically, and traffic may come in bursts if there is press interested.</td>
+</tr>
+<tr>
+<td>Retiring the project</td>
+<td>As required</td>
+<td>If science goals have been completed and nothing further can be gained from the site it is &#39;retired&#39; and it is made clear to users that clicks are no longer useful.</td>
+</tr>
+<tr>
+<td>Archiving the project</td>
+<td>As required</td>
+<td>If a project is done and over it is retired and no longer available on Zooniverse home. A closing blog post or press release should be issued with remarks on the science that has been achieved and the legacy of the project. The site remains up for education and reference use.</td>
+</tr>
+</tbody></table>
+
+<hr>
+
+<h2><a id="anatomy_project"></a> Anatomy of a Zooniverse Project</h2>
+
+<p>We have developed our own vocabulary over the years. Here are some terms that will be used and what they means:</p>
+
+<h4>User/Volunteer</h4>
+
+<p>People using the website are our volunteers. They are referred to as &#39;users&#39; in our database but we think &#39;volunteer&#39; is more respectful, since they are giving up their time to participate.</p>
+
+<h4>Subject</h4>
+
+<p>Volunteers are shown subjects on the site. Subjects are the unit of data to be classified. In Galaxy Zoo they are images of galaxies, in Planet Hunters they are light curves.</p>
+
+<h4>Annotation</h4>
+
+<p>Markings, transcriptions or answers to questions are &#39;annotations&#39;. In Galaxy Zoo every answer is an annotation; in Planet Hunters every transit box drawn. Annotations are the smallest thing a volunteer can add to a subject.</p>
+
+<h4>Classification</h4>
+
+<p>The complete set of annotations that a volunteers adds to a subject form a classification.</p>
+
+<h4>Interface</h4>
+
+<p>The main classification tool used by the public on the project.</p>
+
+<h4>Application Programming Interface (API)</h4>
+
+<p>A system by which one can interact with software - in our case the main Zooniverse software, Ouroboros. An API is the way to directly communicate with the app that handles the database, without just clicking on the websites. APIs exists for many services online.</p>
+
+<h4>Backend/Frontend</h4>
+
+<p>We may talk a lot about front-end and back-end systems. The front-end is the main user interface (UI) and website that people see and use in their browser. The back-end refers to the database and API that serve subjects to the project and which saves data for reduction later on.</p>
+
+<h4>Main Site, Blog, Talk</h4>
+
+<p>Each project has a main site, where the classification interface sits and we give some background information. This is the <strong><a href="http://www.projectname.org">www.projectname.org</a></strong> URL that will be shared around when the project is complete and is the public face of the project for virtually all people.</p>
+
+<p>Nearly all projects have a discussion site at <strong>talk.projectname.org</strong>. All the project&#39;s subjects are shown here and users are usually prompted to talk about any interesting subjects they classify. About 40% of users will visit Talk at least once.</p>
+
+<p>Finally, there will also be a blog for each site at <strong>blog.projectname.org</strong> where science teams are encouraged to blog background information, news and results. A smaller subset will visit the blog, and you can expect more dedicated and interested users to visit here.</p>
+
+<p>Both the blogs and Talk are covered in more depth later in this document.</p>
+
+<h4>Database</h4>
+
+<p>There is a large, central Zooniverse database that stores each project&#39;s subjects, classifications and annotations as well as all user details and Talk discussions.</p>
+
+<h4>Ouroboros</h4>
+
+<p>Our main API system is called Ouroboros and is the backbone of the Zooniverse. It communicates with the database, saving results and logging-in users as needed. It also delivers subjects to users and stores the rules for the delivery and grouping of subjects.</p>
+
+<h4>Website &#39;Content&#39;</h4>
+
+<p>Sooner or later we will come to you for &#39;content&#39; for the site. In development terms this means the words and images on the site. We&#39;ll need text from you and can guide you on the style and length of this content. You can see examples on all current Zooniverse projects.</p>
+
+<p>We&#39;ll be looking for a bit of background on the science and why it is important, as well as short biographies for the team.</p>
+
+<hr>
+
+<h2><a id="interface_design"></a> Interface Design</h2>
+
+<p>Once the project is under development we&#39;ll send round concepts and designs for the main classification interface. The team will require examples of subjects from your data to do this and the requirements the format of this data will be specific to each project.</p>
+
+<h3>Example data</h3>
+
+<p>When delivering example data to the team, consider that this will be used to determine the look and feel of the project and the nature of the main classification interface. So try to send representative data. If only 1 in 20 images are &#39;cool&#39; please try to send a representative set and not just your 20 best images (thought we may ask for those later). Similarly if you have data from several sources, it may be worth including examples from each. This will make sure we create the right kind of user-interface and website design.</p>
+
+<h3>Agile Development</h3>
+
+<p>We operate in a mode where we try to build stuff, show it to you, and implement feedback quite rapidly. We appreciate that this is not often how science, or scientific publication, operates.</p>
+
+<p>This rapid turnaround means that we are always accepting comments and ideas in the early stages. It also means that things will not be complete until near the end. To facilitate this, we have a system for ticketing issues for the project developers (see below).</p>
+
+<p>During development will send you emails with links to long Amazon URLs. These often temporary URLs are usually only for sharing within the science and development teams and may cease to work when the next version comes along.</p>
+
+<h3>GitHub</h3>
+
+<p>We use a collaborative coding, versioning system called Git and a website called GitHub (<a href="http://www.github.com">http://www.github.com</a>). Each project has its own GitHub code repository (or &#39;repo&#39;) and we use the same site to log development issues for everyone involved.</p>
+
+<p>GitHub issues are a powerful and effective way for everyone to log problems or suggestions whilst the site is under development. GitHub accounts are free and we encourage you to signup and let the team know your username. You can receive alerts when issues are discussed or completed and see if other people have already ticketed your idea or problem. GitHub links nicely with email so you don&#39;t need to keep logging into the site to see how things are going.</p>
+
+<hr>
+
+<h2><a id="talk"></a> Talk</h2>
+
+<p>Talk is our custom-built discussion tool. Users are encouraged to comment on, and collect, items they see on the project. The idea is to facilitate the collection of interesting subjects and their discussion. Talk is designed such that if you find a subject interesting or odd then you can quickly see if anyone else has commented on it before and what they said.</p>
+
+<p>There are two ways for volunteers to reach Talk: by visiting the front page of the site or by being linked to an &#39;object&#39; page after completing a transcription such as this one. There will usually be a link to &#39;discuss&#39; at the end of each task. </p>
+
+<p><img src="http://zooniverse-resources.s3.amazonaws.com/science_team_guide/p4talk.png" alt="Planet Four Talk"></p>
+
+<p>There are some features in Talk that may seem a little unusual at first but can (and have) been used to do some excellent science.</p>
+
+<h3>Every subject in the project has its own discussion page</h3>
+
+<p>One important thing to realise about Talk is that every record that is shown in the main project interface has a dedicated page that people can comment on. This means that object-specific discussion can happen right on the object and more general community discussion can happen elsewhere.</p>
+
+<h3>You can tag and collect things</h3>
+
+<p>Talk supports tagging and user-generated collections of objects. Tagging is achieved using the Twitter convention of #tagname (with no spaces) when writing a comment. Tags are commonly used by the community and science team to identify similar objects in the data. For example, images from Snapshot Serengeti have been tagged by the community with #fire when there are flames visible or a wildfire, as this not something asked for in the main interface.</p>
+
+<p>Collections are groups of objects that people use to group similar objects. Once you have some collections, then when you are on the object discussion page there are links to &#39;collect this&#39; and add to one of your collections. Note that collections, like objects can be discussed also.</p>
+
+<h3>Three types of discussion</h3>
+
+<p>Talk has three different &#39;types&#39; of discussion. The first is general community questions/answers. These are on the boards and are globally split into Science, Help and Chat.</p>
+
+<p>The second is short comments on an object or collection. People typically use these to quickly tag objects.</p>
+
+<p>The third is more in-depth discussion for specific objects or collection which is for longer posts. When people start these &#39;faceted&#39; discussions they also show up in the boards under the same Chat heading.</p>
+
+<h3>Talk is dynamic</h3>
+
+<p>If many people are using the same tag it will become a &#39;popular&#39; tag and will show up on the front page. When a critical mass of people start discussing an object or participating in a discussion on a board then the object or thread shows up in the trending sections of the front page. Basically Talk is designed to show you what&#39;s happening right now.</p>
+
+<hr>
+
+<h2><a id="other_tools"></a> Other Zooniverse Tools</h2>
+
+<h3>Dashboard (<a href="http://tools.zooniverse.org">http://tools.zooniverse.org</a>)</h3>
+
+<p><img src="http://zooniverse-resources.s3.amazonaws.com/science_team_guide/tools.png" alt="Screenshot of the Dashboard"></p>
+
+<p>The dashboard - or <em>Zoo Tools</em> - is a place where people can filter and plot data from some Zooniverse projects, and other selected public datasets. For example, galaxies from Galaxy Zoo can be plotted using a variety of charts and filtered according their location or redshift metadata.</p>
+
+<p>Not all data from all projects is currently supported in the dashboard. It is still under development but if you&#39;ve got a cool use-case, speak with Arfon.</p>
+
+<h3>Letters  (<a href="http://letters.zooniverse.org">http://letters.zooniverse.org</a>)</h3>
+
+<p><img src="http://zooniverse-resources.s3.amazonaws.com/science_team_guide/letters.png" alt="Screenshot of Letters"></p>
+
+<p>Letters is a place for citizen scientists to &#39;publish&#39; short articles. These may be summaries of research they have undertaken individually or in groups, or outlines of useful tools or techniques.</p>
+
+<hr>
+
+<h2><a id="data_preparation"></a> Data Preparation</h2>
+
+<h3>Discussing subject creation and delivery</h3>
+
+<p>Once the size and shape (or duration, in case of video/audio) of subjects has been established then we need to start chopping up your dataset accordingly.</p>
+
+<p>It may be the case that you are able to do this, and this is often preferred as it helps assure you of the completeness and quality of the final dataset. It may also be the case that the development team need to modify or compress data.</p>
+
+<p>Whatever the requirements, the science and development teams will come to an agreement on what is required and how it will be delivered. It may be that the science team upload files directly or that they deliver hard drives to one of the Zooniverse offices.</p>
+
+<h3>Amazon S3</h3>
+
+<p>All of our subjects end up on Amazon S3. This is Amazon&#39;s ultra-reliable online storage platform and allows files to stored online and served globally and without hitting any of our servers. It is fast and highly redundant - meaning that subjects load as quickly as possible and are always available online.</p>
+
+<p>All subjects have a unique, public, read-only Amazon URL on S3 which allows them to be used in the classification interface. All our databases store this URL with the subject meta data.</p>
+
+<h3>MongoDB, MySQL and CSV</h3>
+
+<p>Our older projects (those launched before September 2012) are built as Ruby-on-Rails web-apps, running on their own servers and relying on their own MySQL database to store all subject, classifications, users etc.</p>
+
+<p>Our recent projects are HTML5 apps (i.e. they run in the browser and not on servers) and access our custom API application Ouroboros. Ouroboros stores all data in a large MongoDB database server, which spans all projects. MongoDB is not a relational database, but a sophisticated document store for online systems just like ours.</p>
+
+<p>We can import and export subjects, users and results from Ouroboros in CSV, SQL and native MongoDB binary. However we cannot allow everyone access to the system directly - for stability and security reasons. We are able to automated regular data dumps for some regular queries.</p>
+
+<p>If you can&#39;t handle MongoDB, it is usually simplest for us to deliver data in the form of CSV files.</p>
+
+<hr>
+
+<h2><a id="launch_and_beta"></a> Project Launch and Beta-Testing</h2>
+
+<p>As development nears completion we will begin discussing a timeline for launching the site to the public. The first step is to select a good time to perform a beta test of the project.</p>
+
+<p>The Beta is a dry-run of the website with a small group of volunteers (usually about 100-200 people). It is a chance to check that the web-app is working, that people understand the task and that the results make sense.</p>
+
+<h3>Collecting Beta Users</h3>
+
+<p>When we are ready to launch a Beta we usually send a Zooniverse newsletter and ask for volunteers to email us if they wish to take part in the test of a new project. Those people that volunteers for this are usually our more dedicated and sensible participants. We can also use people known to the science team if that is preferred.</p>
+
+<p>These people will then be sent a secret URL, told the aims of the project and asked to fill out a feedback form when they have had a go. The data in a beta is usually a limited sample of the full set. This is done to keep the beta small and manageable and also so that we get a representative set of results.</p>
+
+<p>(<em>As of January 2014 we are testing a new beta signup process, where users preselect for beta tests in general.</em>)</p>
+
+<h3>Feedback and Beta Results</h3>
+
+<p>The feedback form we ask them to fill in can be customised and the results will be shared. We usually ask about how they found the site, whether they understood the task and like the idea.</p>
+
+<p>We can use this form, and the beta classifications data to determine if the site is ready for launch and if so, how long the development and science teams need to make it happen.</p>
+
+<h3>Press strategy</h3>
+
+<p>After testing has been underway and a launch date is being discussed, we can start talking about press releases and how best to coordinate the website&#39;s launch. In most cases the press release should come from the science team - after all, you&#39;re better equipped to deal with your own science than we are.</p>
+
+<p>We have found that the best model is to have one institute issue a press release and for any other institutions to coordinate with the lead. This varies project to project.</p>
+
+<p>We will also send a newsletter to appropriate Zooniverse users and get existing projects to blog/tweet where appropriate.</p>
+
+<h3>Launch timeline</h3>
+
+<p>With a launch date agreed, we usually establish a go/no-go date and time. This is a time at which we pass a point of no return and must launch the website. There are no priority issues pending at this time, and everyone should be happy with the site going live. At this time press releases are issued (often with press embargoes) and everyone is prepared for launch.</p>
+
+<p>Launch day is often very busy - particularly if press do pick up on the story - so it is important to have members of the science team online and ready to answer development team queries, and more importantly answer volunteers&#39; queries on Talk. We find that solid, lasting Talk communities are honed and established during the days after launch.</p>
+
+<p>Engaged science teams are essential in allowing this to happen. If the volunteers see that you&#39;re around for launch, then they are likely to be much more committed to the project.</p>
+
+<hr>
+
+<h2><a id="communication"></a> Communicating with Users</h2>
+
+<h3>Newsletters</h3>
+
+<p>We have the capability to send emails to all our users, either across the Zooniverse or per-project. With hundreds-of-thousands of emails going out in one go, these are not sent lightly. We try to limit newsletters to once a month per project, although exceptions have been known.</p>
+
+<p>We generate lists of users and keep them internally in order to keep users&#39; personal data private. As such we need to send newsletters and do so in coordination with project teams. We also try to send periodic Zooniverse-wide newsletters.</p>
+
+<h3>Blogging</h3>
+
+<p>Most of our projects have their own blogs at blog.projecturl.org. This is a Wordpress.com blog and anyone that wants to blog should signup for a free account at <a href="http://www.wordpress.com">www.wordpress.com</a> and let us know their username.</p>
+
+<p>Blogging is useful for communicating the aims of the project, particularly with interested volunteers. It is also useful for reporting preliminary results during data reduction, or outlining any pet-projects within the scence team that volunteers might want to know more about - or even help with.. </p>
+
+<p>Some highlights from our existing blog network include the blogs for Planet Hunters (<a href="http://blog.planethunters.org">http://blog.planethunters.org</a>), Snapshot Serengeti (<a href="http://blog.snapshotserengeti.org">http://blog.snapshotserengeti.org</a>) and Moon Zoo (<a href="http://blog.moonzoo.org">http://blog.moonzoo.org</a>). It is worth reading some entries on these sites to get an idea of what a good Zooniverse blog looks like.</p>
+
+<p>These three blogs are read by between 1,000 and 10,000 people a week and good chuck of those readers (about 40%) click through to the project or Talk.</p>
+
+<h3>Social Media</h3>
+
+<p>In addition to the blogs, our projects are also present on the main social media platforms. These accounts automatically post links to blog posts by default and can be used to field simple questions from the community. They are a handy communication channel for lots of people online. We encourage anyone that wants to, to tweet, post, etc. The more content the better - and we can help you learn how to use these tools.</p>
+
+<p>Casual, conversational updates with links to interesting URLs - including blog posts and Talk objects - seem to go down well. Regular updates (at least daily or several times a week) result in a good channel for communicating with the public.</p>
+
+<p>If you are interested in tweeting, or posting from your projects account (and we recommend that you do) then we will provide you access. Some of our projects have a dedicated following online. Galaxy Zoo has more than 10,000 followers on Twitter and Planet Hunters&#39; Facebook community has nearly reached 40,000.</p>
+
+<p>We almost always support Twitter, Facebook, and Google+ pages for our sites. Grant Miller (<a href="mailto:grant@zooniverse.org">grant@zooniverse.org</a>) is the main contact for queries regarding the setup, and use of these channels.</p>
+
+<h3>Talk and Moderators</h3>
+
+<p>The Talk platform begins with the science team answering queries and commenting on the public&#39;s discussions. It can be a lot of fun! During the first days the science team&#39;s interactions on Talk will help build a core of users who are known and learn common answers. Many of them will, in turn, begin answering the queries of others and lightening the load on the science team. When you spot these people - keep any eye on them: they may become your moderators. If you spot potential moderators who should communicate with them and see if they are interested in participating further.</p>
+
+<p>Once promoted, moderators have powers to delete posts, ban users and highlight content to others more easily. They are marked as moderators in Talk and often become community leaders on the project&#39;s Talk site. They can become very useful contacts for you and in some cases moderators have even joined the main team mailing list.</p>
+
+<p>If you see users you think should become moderators, let us know. We have a Zooniverse-wide moderators email list and it may be useful to put them in touch. Moderators do not have to be enthusiastic participants, in some projects they are undergrads from relevant research groups, for example.</p>
+
+<hr>
+
+<h2><a id="analysis"></a> Analysis of Results</h2>
+
+<h3>Database Schema and Access</h3>
+
+<p>Very early on the process it is possible for us to give you example results data. Once the classification interface has been implemented it is possible to outline how the classifications will be structured. This means that you can begin working on data reduction before the project even begins. For any queries regarding this, you should contact Chris Snyder (<a href="mailto:cs@zooniverse.org">cs@zooniverse.org</a>).</p>
+
+<h3>Example Data</h3>
+
+<p>We suggest using a set of sample classifications to get a handle on crunching your data before the Beta test, or during it. This means that when you get the results from the Beta test you can see if the project is working and tweak your reduction.</p>
+
+<h3>Results from Other Projects</h3>
+
+<p>There are many people working on past and current Zooniverse projects that are able to help you get started crunching data. Depending on the setup of the site, there may be even be code that can be usefully shared.</p>
+
+<p>A <em>Zooniverse scientists</em> JISCMail listserv exists  - and an accompanying, private blog. If you want access them please contact <a href="mailto:rob@zooniverse.org">rob@zooniverse.org</a>.</p>
+
+<p>For some older projects there are published results, with papers outlining user-weighting schemes and clustering techniques. You can find a complete list of Zooniverse publications at <a href="http://www.zooniverse.org/publications">http://www.zooniverse.org/publications</a>.</p>
+
+<p>Some notable Zooniverse data reduction papers that may be useful are:</p>
+
+<ul>
+<li><a href="http://adsabs.harvard.edu/abs/2011MNRAS.410..166L">Lintott+11, Galaxy Zoo Paper</a></li>
+<li><a href="http://adsabs.harvard.edu/abs/2012ApJ...754..129S">Schwamb+12, Planet Hunters Paper</a></li>
+<li><a href="http://adsabs.harvard.edu/abs/2012MNRAS.424.2442S">Simpson+12, Milky Way Project Paper</a></li>
+</ul>
+
+<h3>Results</h3>
+
+<p>It is a good idea to get a brief publication and authorship policy written up for your project. This is the responsibility of the project PI, although there will be Zooniverse team members that deserve authorship credit for the first N papers and science team members will need to agree about how this will work.</p>
+
+<p>Publication is something we&#39;re very keen on at the Zooniverse! It is how we show the scientific community what Zooniverse projects can do, and it shows our volunteers that what they are contributing to something real and worthwhile.</p>
+
+<p>To that end it is always worth blogging about publications, and anything you can share about parts of those results beforehand online are always appreciated by the volunteers. We often use results a a chance to email a site&#39;s users and remind them about the project.</p>
+
+<p>We try to maintain a policy of producing publicly accessible data on the projects own domain, in addition to publishing in formal channels. This means that anyone can access the data and gives us a chance to frame it for the public. You can see examples at <a href="http://data.galaxyzoo.org">http://data.galaxyzoo.org</a> and <a href="http://www.milkywayproject.org/data">http://www.milkywayproject.org/data</a>.</p>
+
+<hr>
+
+<h2><a id="analytics"></a> Project Analytics</h2>
+
+<h3>Analytics</h3>
+
+<p>For all our new projects there exists a status page, supported by Ouroboros, at api.zooniverse.org/projects/XXXXX/status where we can tell you what XXXXX is for your site (e.g. <a href="https://api.zooniverse.org/projects/galaxy_zoo/status">https://api.zooniverse.org/projects/galaxy_zoo/status</a>).</p>
+
+<p><img src="http://zooniverse-resources.s3.amazonaws.com/science_team_guide/apidashboard1.png" alt="Ouroboros Analytics Example"></p>
+
+<p><img src="http://zooniverse-resources.s3.amazonaws.com/science_team_guide/apidashboard2.png" alt="Ouroboros Analytics Example"></p>
+
+<p>Every project uses Google Analytics to track website use and traffic. This lets us monitor who uses the site and when and how long people spend on the main site, Talk and the blog.</p>
+
+<p>We will provide summaries of the status of the project once in a while, to keep your project up to date. If you ever want to know more about how things are going - don&#39;t hesitate to ask.</p>
+
+<hr>
+
+<h2><a id="after_launch_changes"></a> After Launch</h2>
+
+<h3>Changes to the Project</h3>
+
+<p>We have always considered Zooniverse websites to be parts of the experiment. The way users interact with the tools they are given defines the nature of the classifications - as does the way those tools are explained and placed in context. For this reason it is generally not a good idea to change a project once it is live. Correcting text, updating team biographies and other small changes are usually fine, but any changes to the main interface could affect the results of the project and need careful consideration.</p>
+
+<p>Similarly, once a project is up and running and a community is building up around it, the Zooniverse team will shift gear into a &#39;steady state&#39; and will be focussing on new upcoming projects for development. We will continue to provide support but after launch the science team take the lead.</p>
+
+<hr>
+
+<h2><a id="closing_down"></a> Closing Down Projects</h2>
+
+<p>Hopefully the Beta test and early days of the project will give everyone a good idea of how long a project needs to run to complete the target science goals. For busy projects, those goals may be achieved earlier than expected, and for other projects it may be known from the start that there is a virtually limitless supply of data available for classification. Many projects run for years - and others only a few weeks! There are also projects that can be effectively &#39;paused&#39; whilst new data is expected.</p>
+
+<p>We can decide a project is over if some of the following are true:</p>
+
+<ul>
+<li>The project has enough classifications to complete its science goals.</li>
+<li>The project science team is no longer able to provide support or do research with the data.</li>
+<li>Traffic to the project has diminished such that it is no longer viable to continue running the project (and avenues to correct this have been explored).</li>
+</ul>
+
+<p>In these cases archiving or retiring the project become the best options. Action like this is only taken in consultation between the Zooniverse team and the science team.</p>
+
+<h3>Archiving Projects</h3>
+
+<p>If a project is deemed to be complete then in the first instance it will be &#39;archived&#39;. Archived projects are modified to include a prominent message to volunteers that the site is no longer collecting useful data. We continue post social media updates, and support the blog and Talk.</p>
+
+<h3>Retiring Projects</h3>
+
+<p>When a project is retired a prominent message is displayed to visitors that this site is longer active.. Users&#39;s favourites and recents remain accessible but the database is essentially &#39;disconnected&#39;.</p>
+
+<p>A date is agreed when the blog and Talk will be frozen and a final blog post is written explaining the project&#39;s retirement. Social media and newsletter activities come to an end.</p>
+
+<p>Data from the project (including archives of the blog, tweets etc) are made available to the Zooniverse and science teams.</p>
+
+<hr>
+
+<h2><a id="summary"></a> Summary</h2>
+
+<p>Zooniverse projects are a lot of fun and really engage the public with discovery and with your science. We&#39;re looking forward to building your project with you.</p>
+
+<p>If you have any questions about this guide contact <a href="mailto:rob@zooniverse.org">rob@zooniverse.org</a>.</p>
+
+<hr>
+
+</body>
+</html>
