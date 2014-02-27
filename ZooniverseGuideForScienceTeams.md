@@ -34,14 +34,14 @@ The Zooniverse consists of two main groups: one in the University of Oxford (UK)
 
 In addition to our amazing developers, whom you will meet during the process of building your project, there are some other names that will may be useful:
 
-- Chris Snyder - Porject Manager cs@zooniverse.org
+- Chris Snyder - Project Manager cs@zooniverse.org
 - Robert Simpson - Communications lead rob@zooniverse.org
 - Kelly Borden - Education specialists kelly@zooniverse.org
 - Heath Van Singel - Visual design heath@zooniverse.org
 
 ### JISCMail lists
 
-As with all things, communication is vitally important in building Zooniverse projects. We are distributed around the world (and we travel too) and this is also true for most science teams. To keep in touch, we use the JISCMail LISTSERV service for our projects. This is a kind of email exploder, that you interact with via email or the web. Only those on the list can send or receive messages. Everyone that needs to will be added to the list for your project and this will be set up early on by our team.
+As with all things, communication is vitally important in building Zooniverse projects. We are distributed around the world (and we travel too) and this is also true for most science teams. To keep in touch, we use the JISCMail LISTSERV service for our projects. This is a kind of email exploder that you interact with via email or the web. Only those on the list can send or receive messages. Everyone who needs to be will be added to the list for your project and this will be set up early on by our team.
 
 JISCMail allows the conversation to be inclusive and creates a record of the conversation at jiscmail.ac.uk. This can be useful in months and even years to come. When writing a paper in two or more years' time, you'll want to be able to find that detailed discussion about data selection without having to search everyone's email. People can be added to and removed from these lists as needed.
 
@@ -53,11 +53,11 @@ In addition to directly contacting team members, or using the project's JISCMail
 
 At the Zooniverse we rely on Amazon Web Services for our core infrastructure. All our servers are virtual machines _in the cloud_ - this includes our webapps (i.e. the project itself) as well as our databases and other sites. We also store the images and other data for projects on Amazon S3, a highly redundant and scalable online storage platform. This means that test sites, sample data, and other things, will often be found at amazonaws.com URLs.
 
-We don't need you to create any Amazon accounts, or really think about this much at all, but it's worth noting that we use this service and that is a popular, and secure way to hosts large-scale websites.
+We don't need you to create any Amazon accounts, or really think about this much at all, but it's worth noting that we use this service and that is a popular and secure way to host large-scale websites.
 
 ### Agreeing a timeline
 
-Early on in the process a rough timeline will be agreed regarding when to aim to launch the site and when to start work in ernest.
+Early on in the process a rough timeline will be agreed regarding when to aim to launch the site and when to start work in earnest.
 
 ### Things You Can Do Now
 
@@ -142,7 +142,7 @@ ___
 
 ## <a id="interface_design"></a> Interface Design
 
-Once the project is under development we'll send round concepts and designs for the main classification interface. The team will require examples of subjects from your data to do this and the requirements the format of this data will be specific to each project.
+Once the project is under development we'll send around concepts and designs for the main classification interface. The team will require examples of subjects from your data to do this and the requirements the format of this data will be specific to each project.
 
 ### Example data
 
@@ -160,7 +160,7 @@ During development will send you emails with links to long Amazon URLs. These of
 
 We use a collaborative coding, versioning system called Git and a website called GitHub (http://www.github.com). Each project has its own GitHub code repository (or 'repo') and we use the same site to log development issues for everyone involved.
 
-GitHub issues are a powerful and effective way for everyone to log problems or suggestions whilst the site is under development. GitHub accounts are free and we encourage you to signup and let the team know your username. You can receive alerts when issues are discussed or completed and see if other people have already ticketed your idea or problem. GitHub links nicely with email so you don't need to keep logging into the site to see how things are going.
+GitHub issues are a powerful and effective way for everyone to log problems or suggestions whilst the site is under development. GitHub accounts are free and we encourage you to sign up and let the team know your username. You can receive alerts when issues are discussed or completed and see if other people have already ticketed your idea or problem. GitHub links nicely with email so you don't need to keep logging into the site to see how things are going.
 
 ___
 
@@ -182,7 +182,7 @@ One important thing to realise about Talk is that every record that is shown in 
 
 Talk supports tagging and user-generated collections of objects. Tagging is achieved using the Twitter convention of #tagname (with no spaces) when writing a comment. Tags are commonly used by the community and science team to identify similar objects in the data. For example, images from Snapshot Serengeti have been tagged by the community with #fire when there are flames visible or a wildfire, as this not something asked for in the main interface.
 
-Collections are groups of objects that people use to group similar objects. Once you have some collections, then when you are on the object discussion page there are links to 'collect this' and add to one of your collections. Note that collections, like objects can be discussed also.
+Collections are groups of objects that people use to group similar objects. Once you have some collections, then when you are on the object discussion page there are links to 'collect this' and add to one of your collections. Note that collections, like objects, can also be discussed.
 
 ### Three types of discussion
 
@@ -238,7 +238,7 @@ Our older projects (those launched before September 2012) are built as Ruby-on-R
 
 Our recent projects are HTML5 apps (i.e. they run in the browser and not on servers) and access our custom API application Ouroboros. Ouroboros stores all data in a large MongoDB database server, which spans all projects. MongoDB is not a relational database, but a sophisticated document store for online systems just like ours.
 
-We can import and export subjects, users and results from Ouroboros in CSV, SQL and native MongoDB binary. However we cannot allow everyone access to the system directly - for stability and security reasons. We are able to automated regular data dumps for some regular queries.
+We can import and export subjects, users and results from Ouroboros in CSV, SQL and native MongoDB binary. However we cannot allow everyone access to the system directly - for stability and security reasons. We are able to automate regular data dumps for some regular queries.
 
 If you can't handle MongoDB, it is usually simplest for us to deliver data in the form of CSV files.
 ___
@@ -251,7 +251,7 @@ The Beta is a dry-run of the website with a small group of volunteers (usually a
 
 ### Collecting Beta Users
 
-When we are ready to launch a Beta we usually send a Zooniverse newsletter and ask for volunteers to email us if they wish to take part in the test of a new project. Those people that volunteers for this are usually our more dedicated and sensible participants. We can also use people known to the science team if that is preferred.
+When we are ready to launch a Beta we usually send a Zooniverse newsletter and ask for volunteers to email us if they wish to take part in the test of a new project. Those people that volunteer for this are usually our more dedicated and sensible participants. We can also use people known to the science team if that is preferred.
 
 These people will then be sent a secret URL, told the aims of the project and asked to fill out a feedback form when they have had a go. The data in a beta is usually a limited sample of the full set. This is done to keep the beta small and manageable and also so that we get a representative set of results.
 
@@ -259,9 +259,9 @@ These people will then be sent a secret URL, told the aims of the project and as
 
 ### Feedback and Beta Results
 
-The feedback form we ask them to fill in can be customised and the results will be shared. We usually ask about how they found the site, whether they understood the task and like the idea.
+The feedback form we ask participants to fill in can be customised and the results will be shared. We usually ask about how they found the site, whether they understood the task and like the idea.
 
-We can use this form, and the beta classifications data to determine if the site is ready for launch and if so, how long the development and science teams need to make it happen.
+We can use this form and the beta classifications data to determine if the site is ready for launch and if so, how long the development and science teams need to make it happen.
 
 ### Press strategy
 
@@ -293,7 +293,7 @@ We generate lists of users and keep them internally in order to keep users' pers
 
 Most of our projects have their own blogs at blog.projecturl.org. This is a Wordpress.com blog and anyone that wants to blog should signup for a free account at www.wordpress.com and let us know their username.
 
-Blogging is useful for communicating the aims of the project, particularly with interested volunteers. It is also useful for reporting preliminary results during data reduction, or outlining any pet-projects within the scence team that volunteers might want to know more about - or even help with..
+Blogging is useful for communicating the aims of the project, particularly with interested volunteers. It is also useful for reporting preliminary results during data reduction, or outlining any pet-projects within the science team that volunteers might want to know more about - or even help with..
 
 Some highlights from our existing blog network include the blogs for Planet Hunters (http://blog.planethunters.org), Snapshot Serengeti (http://blog.snapshotserengeti.org) and Moon Zoo (http://blog.moonzoo.org). It is worth reading some entries on these sites to get an idea of what a good Zooniverse blog looks like.
 
@@ -305,17 +305,17 @@ In addition to the blogs, our projects are also present on the main social media
 
 Casual, conversational updates with links to interesting URLs - including blog posts and Talk objects - seem to go down well. Regular updates (at least daily or several times a week) result in a good channel for communicating with the public.
 
-If you are interested in tweeting, or posting from your projects account (and we recommend that you do) then we will provide you access. Some of our projects have a dedicated following online. Galaxy Zoo has more than 10,000 followers on Twitter and Planet Hunters' Facebook community has nearly reached 40,000.
+If you are interested in tweeting, or posting from your projects account (and we recommend that you do) then we will provide you access. Some of our projects have a dedicated following online. Galaxy Zoo has more than 10,000 followers on Twitter and Planet Hunters' Facebook community has over 100,000.
 
-We almost always support Twitter, Facebook, and Google+ pages for our sites. Grant Miller (grant@zooniverse.org) is the main contact for queries regarding the setup, and use of these channels.
+We almost always support Twitter, Facebook, and Google+ pages for our sites. Grant Miller (grant@zooniverse.org) is the main contact for queries regarding the setup and use of these channels.
 
 ### Talk and Moderators
 
-The Talk platform begins with the science team answering queries and commenting on the public's discussions. It can be a lot of fun! During the first days the science team's interactions on Talk will help build a core of users who are known and learn common answers. Many of them will, in turn, begin answering the queries of others and lightening the load on the science team. When you spot these people - keep any eye on them: they may become your moderators. If you spot potential moderators who should communicate with them and see if they are interested in participating further.
+The Talk platform begins with the science team answering queries and commenting on the public's discussions. It can be a lot of fun! During the first days the science team's interactions on Talk will help build a core of users who are known and learn common answers. Many of them will, in turn, begin answering the queries of others and lightening the load on the science team. When you spot these people - keep any eye on them: they may become your moderators. If you spot potential moderators you should communicate with them and see if they are interested in participating further.
 
 Once promoted, moderators have powers to delete posts, ban users and highlight content to others more easily. They are marked as moderators in Talk and often become community leaders on the project's Talk site. They can become very useful contacts for you and in some cases moderators have even joined the main team mailing list.
 
-If you see users you think should become moderators, let us know. We have a Zooniverse-wide moderators email list and it may be useful to put them in touch. Moderators do not have to be enthusiastic participants, in some projects they are undergrads from relevant research groups, for example.
+If you see users you think should become moderators, let us know. We have a Zooniverse-wide moderators email list and it may be useful to put them in touch. Moderators do not have to be enthusiastic participants; in some projects they are undergrads from relevant research groups, for example.
 ___
 
 ## <a id="analysis"></a> Analysis of Results
@@ -397,7 +397,7 @@ If a project is deemed to be complete then in the first instance it will be 'arc
 
 ### Retiring Projects
 
-When a project is retired a prominent message is displayed to visitors that this site is longer active.. Users's favourites and recents remain accessible but the database is essentially 'disconnected'.
+When a project is retired a prominent message is displayed to visitors that this site is longer active. Users' favourites and recents remain accessible but the database is essentially 'disconnected'.
 
 A date is agreed when the blog and Talk will be frozen and a final blog post is written explaining the project's retirement. Social media and newsletter activities come to an end.
 
