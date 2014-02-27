@@ -1,5 +1,5 @@
 # Zooniverse Guide for Science Teams
-### Robert Simpson (_April 2013_)
+### Robert Simpson (_Created April 2013_, Edited February 2014)
 _______
 
 ## Contents
@@ -28,14 +28,14 @@ So we're building your project: congratulations! That means we're going to build
 
 ### Key contacts at the Zooniverse
 
-The Zooniverse consists of two main groups: one in the University of Oxford (UK) and one at the Adler Planetarium (Chicago, US). The Oxford group is led by Chris Lintott (cjl@astro.ox.ac.uk) and the Chicago team by Arfon Smith (arfon@zooniverse.org). You'll be working with some combination of people in both these teams over the coming months.
+The Zooniverse consists of two main groups: one in the University of Oxford (UK) and one at the Adler Planetarium (Chicago, US). The Oxford group is led by Chris Lintott (cjl@astro.ox.ac.uk) and the Chicago team by Laura Whyte (laura@zooniverse.org). You'll be working with some combination of people in both these teams over the coming months.
 
 In addition to our amazing developers, whom you will meet during the process of building your project, there are some other names that will may be useful:
 
-
+- Chris Snyder - Porject Manager cs@zooniverse.org
+- Robert Simpson - Communications lead rob@zooniverse.org
+- Kelly Borden - Education specialists kelly@zooniverse.org
 - Heath Van Singel - Visual design heath@zooniverse.org
-- Robert Simpson - Communication, web analytics, social media rob@zooniverse.org
-- Laura Whyte and Kelly Borden - Education specialists laura@zooniverse.org and kelly@zooniverse.org
 
 ### JISCMail lists
 
