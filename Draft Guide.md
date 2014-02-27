@@ -1,5 +1,6 @@
 # Zooniverse Guide for Science Teams
-### Robert Simpson (_Created April 2013_, Edited February 2014)
+### Robert Simpson
+#### (_Created_ April 2013, _Edited_ February 2014)
 _______
 
 ## Contents
@@ -156,9 +157,9 @@ During development will send you emails with links to long Amazon URLs. These of
 
 ### GitHub
 
-We use a collaborative coding, versioning system called Git and a website called GitHub (http://www.github.com). Each project has its own GitHub code repository (or just 'repo') and we use the same site to log development issues for everyone involved.
+We use a collaborative coding, versioning system called Git and a website called GitHub (http://www.github.com). Each project has its own GitHub code repository (or 'repo') and we use the same site to log development issues for everyone involved.
 
-GitHub issues are a very powerful and effective way for everyone to log problems or suggestions whilst the site is under development. GitHub accounts are free and we encourage you to signup and let the team know your username. You can receive alerts when issues are discussed or completed and see if other people have already ticketed your idea or problem. GitHub links nicely with email so you don't need to keep logging into the site to see how things are going.
+GitHub issues are a powerful and effective way for everyone to log problems or suggestions whilst the site is under development. GitHub accounts are free and we encourage you to signup and let the team know your username. You can receive alerts when issues are discussed or completed and see if other people have already ticketed your idea or problem. GitHub links nicely with email so you don't need to keep logging into the site to see how things are going.
 
 ___
 
@@ -172,7 +173,7 @@ There are two ways for volunteers to reach Talk: by visiting the front page of t
 
 There are some features in Talk that may seem a little unusual at first but can (and have) been used to do some excellent science.
 
-### Every subject in the project usually has its own discussion page
+### Every subject in the project has its own discussion page
 
 One important thing to realise about Talk is that every record that is shown in the main project interface has a dedicated page that people can comment on. This means that object-specific discussion can happen right on the object and more general community discussion can happen elsewhere.
 
@@ -253,6 +254,8 @@ When we are ready to launch a Beta we usually send a Zooniverse newsletter and a
 
 These people will then be sent a secret URL, told the aims of the project and asked to fill out a feedback form when they have had a go. The data in a beta is usually a limited sample of the full set. This is done to keep the beta small and manageable and also so that we get a representative set of results.
 
+(_As of January 2014 we are testing a new beta signup process, where users preselect for beta tests in general._)
+
 ### Feedback and Beta Results
 
 The feedback form we ask them to fill in can be customised and the results will be shared. We usually ask about how they found the site, whether they understood the task and like the idea.
@@ -287,9 +290,9 @@ We generate lists of users and keep them internally in order to keep users' pers
 
 ### Blogging
 
-Most of our projects have their own blogs at blog.projecturl.org. This is a Wordpress.com blog and anyone that wants to blog should signup for a free account at www.wordpress.com.
+Most of our projects have their own blogs at blog.projecturl.org. This is a Wordpress.com blog and anyone that wants to blog should signup for a free account at www.wordpress.com and let us know their username.
 
-Blogging is useful for communicating with interested volunteers and for reporting preliminary results during data reduction. 
+Blogging is useful for communicating the aims of the project, particularly with interested volunteers. It is also useful for reporting preliminary results during data reduction, or outlining any pet-projects within the scence team that volunteers might want to know more about - or even help with.. 
 
 Some highlights from our existing blog network include the blogs for Planet Hunters (http://blog.planethunters.org), Snapshot Serengeti (http://blog.snapshotserengeti.org) and Moon Zoo (http://blog.moonzoo.org). It is worth reading some entries on these sites to get an idea of what a good Zooniverse blog looks like.
 
@@ -297,13 +300,13 @@ These three blogs are read by between 1,000 and 10,000 people a week and good ch
 
 ### Social Media
 
-In addition to the blogs, our projects are also present on the main social media platforms. These accounts automatically post links to blog posts by default and can be used to field simple questions from the community. They are a handy communication channel for lots of people online.
+In addition to the blogs, our projects are also present on the main social media platforms. These accounts automatically post links to blog posts by default and can be used to field simple questions from the community. They are a handy communication channel for lots of people online. We encourage anyone that wants to, to tweet, post, etc. The more content the better - and we can help you learn how to use these tools.
 
-Casual, conversational updates with links to interesting URLs - including blog posts and Talk objects - seem to go down well. Regular updates (at least daily) result in a good channel for communicating with the public.
+Casual, conversational updates with links to interesting URLs - including blog posts and Talk objects - seem to go down well. Regular updates (at least daily or several times a week) result in a good channel for communicating with the public.
 
-If you are interested in tweeting, or posting from your projects account (and we recommend that you do) then we will provide you access. Some of our projects have a dedicated following online. Galaxy Zoo has more than 8,000 followers on Twitter and Planet Hunters' Facebook community has nearly reached 10,000.
+If you are interested in tweeting, or posting from your projects account (and we recommend that you do) then we will provide you access. Some of our projects have a dedicated following online. Galaxy Zoo has more than 10,000 followers on Twitter and Planet Hunters' Facebook community has nearly reached 40,000.
 
-We usually support Twitter and Facebook pages for our sites. We're also working to support Google Plus too.
+We almost always support Twitter, Facebook, and Google+ pages for our sites. Grant Miller (grant@zooniverse.org) is the main contact for queries regarding the setup, and use of these channels.
 
 ### Talk and Moderators
 
