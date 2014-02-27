@@ -144,7 +144,7 @@ ___
 
 Once the project is under development we'll send round concepts and designs for the main classification interface. The team will require examples of subjects from your data to do this and the requirements the format of this data will be specific to each project.
 
-### Example data 
+### Example data
 
 When delivering example data to the team, consider that this will be used to determine the look and feel of the project and the nature of the main classification interface. So try to send representative data. If only 1 in 20 images are 'cool' please try to send a representative set and not just your 20 best images (thought we may ask for those later). Similarly if you have data from several sources, it may be worth including examples from each. This will make sure we create the right kind of user-interface and website design.
 
@@ -168,7 +168,7 @@ ___
 
 Talk is our custom-built discussion tool. Users are encouraged to comment on, and collect, items they see on the project. The idea is to facilitate the collection of interesting subjects and their discussion. Talk is designed such that if you find a subject interesting or odd then you can quickly see if anyone else has commented on it before and what they said.
 
-There are two ways for volunteers to reach Talk: by visiting the front page of the site or by being linked to an 'object' page after completing a transcription such as this one. There will usually be a link to 'discuss' at the end of each task. 
+There are two ways for volunteers to reach Talk: by visiting the front page of the site or by being linked to an 'object' page after completing a transcription such as this one. There will usually be a link to 'discuss' at the end of each task.
 
 ![Planet Four Talk](http://zooniverse-resources.s3.amazonaws.com/science_team_guide/p4talk.png)
 
@@ -293,7 +293,7 @@ We generate lists of users and keep them internally in order to keep users' pers
 
 Most of our projects have their own blogs at blog.projecturl.org. This is a Wordpress.com blog and anyone that wants to blog should signup for a free account at www.wordpress.com and let us know their username.
 
-Blogging is useful for communicating the aims of the project, particularly with interested volunteers. It is also useful for reporting preliminary results during data reduction, or outlining any pet-projects within the scence team that volunteers might want to know more about - or even help with.. 
+Blogging is useful for communicating the aims of the project, particularly with interested volunteers. It is also useful for reporting preliminary results during data reduction, or outlining any pet-projects within the scence team that volunteers might want to know more about - or even help with..
 
 Some highlights from our existing blog network include the blogs for Planet Hunters (http://blog.planethunters.org), Snapshot Serengeti (http://blog.snapshotserengeti.org) and Moon Zoo (http://blog.moonzoo.org). It is worth reading some entries on these sites to get an idea of what a good Zooniverse blog looks like.
 
@@ -350,7 +350,7 @@ Publication is something we're very keen on at the Zooniverse! It is how we show
 
 To that end it is always worth blogging about publications, and anything you can share about parts of those results beforehand online are always appreciated by the volunteers. We often use results a a chance to email a site's users and remind them about the project.
 
-We try to maintain a policy of producing publicly accessible data on the projects own domain, in addition to publishing in formal channels. This means that anyone can access the data and gives us a chance to frame it for the public. You can see examples at http://data.galaxyzoo.org and http://www.milkywayproject.org/data.
+We try to maintain a policy of producing publicly accessible data on the projects own domain, in addition to publishing in formal channels. This means that anyone can access the data and gives us a chance to frame it for the public. You can see examples at http://data.galaxyzoo.org and http://www.milkywayproject.org/#/data.
 
 _____
 
